@@ -283,7 +283,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 
 b: Nếu chúng ta không đóng góp cho xã hội thì chúng ta là kẻ ăn bám xã hội!
 
-b: Quần chúng xã hội sẽ đến gặp bác sĩ xã hội để xin thuốc tiêu diệt những ký sinh trùng trong xã hội, sau đó chúng ta sẽ--
+b: Quần chúng xã hội sẽ đến gặp bác sĩ xã hội để xin thuốc tiêu diệt những kẻ ăn bám trong xã hội, sau đó chúng ta sẽ--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
