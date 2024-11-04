@@ -23,7 +23,7 @@
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" about that horrible thing happening somewhere?
+s: Nhưng bạn có *thấy* "bản tin" về sự việc kinh khủng đó xảy ra ở đâu đó không?
 
 ```
 publish("act2",["dee",2]);
@@ -38,14 +38,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: God I hate the news. It's all sensationalism and clickbait.
+a: Trời ơi, tôi ghét báo chí. Toàn là tin giật gân và câu view.
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: t... tiệc hay đó...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -53,13 +53,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: True, but they're just following incentives. The *real* problem is people who click the clickbait.
+s: Đúng vậy, nhưng họ chỉ đang làm theo động cơ thôi. Vấn đề *thực sự* là những người nhấn vào clickbait.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: Who would retweet a terrible news story, and make all their friends feel bad?
+s: Ai lại retweet một bản tin khủng khiếp, và khiến tất cả bạn bè của mình cảm thấy tồi tệ?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ừ, đúng nhỉ?
 
 (#act2-preamble-end)
 
@@ -78,14 +78,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" going viral?
+s: Nhưng bạn có *thấy* "bản tin" đó nổi lên không?
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: x-xin chào...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -93,14 +93,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Yeah, totally fake. Who would fall for that and retweet it?
+a: Đúng, giả hoàn toàn. Ai sẽ tin nó và retweet nó chứ?
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: t... tiệc hay đó...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -108,7 +108,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Seriously dude. Like, hello, open up Google and factcheck first?
+s: Nghiêm túc đấy. Kiểu, alô, mở Google và kiểm chứng thông tin trước đi chứ?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -116,7 +116,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ừ, đúng nhỉ?
 
 (#act2-preamble-end)
 
@@ -127,14 +127,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: Like I was saying, the Meme Industrial Complex exploits cats.
+s: Như tôi đã nói, Tổ hợp Công nghiệp Meme bóc lột mèo.
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: x-xin chào...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -142,14 +142,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Elaborate on this thesis.
+a: Nói thêm về luận đề đó đi.
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: t... tiệc hay đó...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -157,13 +157,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Well, I saw someone retweet a GIF of a cat drinking milk yesterday.
+s: Thì, hôm qua tôi thấy có người retweet lại GIF mèo đang uống sữa.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: They can't digest that ^crap^! Who would retweet *animal abuse* like that?
+s: Chúng đâu thể tiêu hóa thứ đó! Ai lại retweet sự *ngược đãi động vật* vậy chứ?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -171,7 +171,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ừ, đúng nhỉ?
 
 (#act2-preamble-end)
 
@@ -182,14 +182,14 @@ a: Ugh, I know right?
 publish("act2",["dee",1]);
 ```
 
-s: So yeah they never replied back!
+s: Vậy đó họ không trả lời lại mình!
 
 ```
 publish("act2",["dee",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: x-xin chào...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -197,14 +197,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Even though you both matched each other on Tinder?
+a: Kể cả khi cả hai đã kết cặp với nhau trên Tinder?
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: t... tiệc hay đó...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -229,7 +229,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! What, did they think I was a *serial killer* or something? So paranoid.
+s: Vậy tôi chịu! Cái quái, họ nghĩ tôi là *kẻ giết người hàng loạt* hay gì đó sao? Hoang tưởng thật sự.
 
 ```
 publish("act2",["party_hunter",1]);
@@ -237,7 +237,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ừ, đúng nhỉ?
 
 (#act2-preamble-end)
 
@@ -249,9 +249,9 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! Maybe they think hookups can't fill the hole in their heart?
+s: Vậy tôi chịu! Phải chăng họ nghĩ gặp gỡ tình ái ngắn hạn không thể lấp đầy khoảng trống trong trái tim họ?
 
-s: Stop being such a prude! Open your mind, then open your legs!
+s: Ngừng giả tạo vậy đi! Mở rộng tâm trí, rồi mở rộng chân ra!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -259,7 +259,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ừ, đúng nhỉ?
 
 (#act2-preamble-end)
 
@@ -271,7 +271,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! They weren't that hot, but they would have been a nice catch!
+s: Vậy tôi chịu! Họ không hấp dẫn đến thế, nhưng hẳn đã là một món hời!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -300,13 +300,13 @@ publish("hp_show");
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-n: ROUND TWO: *FIGHT!*
+n: VÒNG 2: *ĐÁNH!*
 
-[Oh no they all hate us!](#act2a_social)
+[Ôi không họ đều ghét chúng ta!](#act2a_social)
 
-[Were you *ogling* the redhead?](#act2a_perv)
+[Bạn đang *tăm tia* người có tóc đỏ à?](#act2a_perv)
 
-[Hey, let's talk about the meaning of life.](#act2a_meaning)
+[Này, chúng ta nói chuyện về ý nghĩa của cuộc sống đi.](#act2a_meaning)
 
 # act2a_social
 
