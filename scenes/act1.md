@@ -411,34 +411,34 @@ n: VÒNG 1: *ĐÁNH!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Facebook feed says there's a party happening this weekend.
+h: Ớ. Facebook nói là sẽ có một bữa tiệc diễn ra vào cuối tuần này.
 
 `bb({eyes:"uncertain"});`
 
-b: Doesn't that weirdo throw a party *every* weekend?
+b: Chẳng phải gã lập dị đó tổ chức tiệc *mọi* tuần sao?
 
 `bb({eyes:"uncertain_right"});`
 
-b: What inner void are they trying to fill? They must be deeply messed up inside!
+b: Họ đang cố lấp đầy khoảng trống tâm hồn nào vậy? Chắc hẳn bên trong họ rối tung lắm!
 
 `hong({eyes:"surprise"});`
 
-h: Also, I got an invite?
+h: Này, mình có thư mời nè?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Well then!
+b: Vậy thì!
 
-[Say yes, or we'll die from loneliness!](#act1c_loner)
+[Đồng ý đi, không thì chúng ta sẽ chết vì cô đơn đó!](#act1c_loner)
 
-[Say no, it's full of poisonous drugs!](#act1c_drugs)
+[Từ chối đi, chúng chứa đầy các loại thuốc độc hại đó!](#act1c_drugs)
 
-[Ignore it, we just make parties sad.](#act1c_sad)
+[Lờ nó đi, chúng ta chỉ làm mọi bữa tiệc buồn hơn thôi.](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Fifteen cigarettes a day, human! Fifteen!
+b: Mười lăm điếu thuốc mỗi ngày, con người ạ! Mười lăm!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -446,11 +446,11 @@ b: Fifteen cigarettes a day, human! Fifteen!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Then no one will show up at our funeral, they'll dump our ashes into the ocean, we get eaten by a whale,
+b: Khi đó sẽ chẳng có ai đến dự đám tang của chúng ta, họ sẽ vứt tro cốt của chúng ta xuống biển, chúng ta sẽ bị cá voi ăn thịt,
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: and we become WHALE POOP!
+b: và chúng ta trở thành PHÂN CÁ VOI!
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -467,25 +467,25 @@ attack("18p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: So yeah we should go to that party!
+b: Đúng vậy chúng ta nên đến bữa tiệc đó!
 {{/if}}
 
 {{if _.parasite}}
-b: Just bring the laptop so we can do work, and not be a society-parasite.
+b: Chỉ cần mang theo máy tính để chúng ta có thể làm việc, và không trở thành kẻ ăn bám của xã hội.
 {{/if}}
 
 {{if _.whitebread}}
-b: Just as long as they don't serve WHITE BREAD
+b: Miễn là họ không phục vụ BÁNH MÌ TRẮNG
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: LẠY CHÚA. Nếu điều đó khiến bạn im lặng, được thôi.
 
-h: I'll say yes.
+h: Tôi sẽ đồng ý.
 
 {{if _.whalepoop}}
-b: Whale poop, human! Whale poop!
+b: Phân cá voi đó, con người! Phân cá voi!
 {{/if}}
 
 `_.partyinvite="yes"`
@@ -497,7 +497,7 @@ b: Whale poop, human! Whale poop!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: or even worse... WHITE BREAD
+b: hoặc tệ hơn... BÁNH MÌ TRẮNG
 {{/if}}
 
 {{if _.whitebread}}
@@ -505,11 +505,11 @@ b: or even worse... WHITE BREAD
 {{/if}}
 
 {{if _.whitebread}}
-b: We'll overdose on so much meth and white bread they won't be able to fit our fat corpse into the cremation furnace!
+b: Chúng ta sẽ dùng quá liều ma túy đá và bánh mì trắng đến nỗi họ sẽ không thể nhét vừa cái xác béo ú của chúng ta vào lò hỏa táng!
 {{/if}}
 
 {{if !_.whitebread}}
-b: We'll overdose on so many drugs the undertaker will wonder how our body was *already* pre-embalmed!
+b: Chúng ta sẽ dùng quá liều nhiều loại thuốc đến nỗi người làm dịch vụ tang lễ sẽ tự hỏi làm sao cơ thể chúng ta *đã* được ướp xác trước!
 {{/if}}
 
 ```
@@ -520,14 +520,14 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: Besides, can't party, we need to do work or we're a terrible society-parasite!
+b: Hơn nữa, không tiệc tùng được, chúng ta cần phải làm việc, nếu không chúng ta sẽ là kẻ ăn bám xã hội khủng khiếp!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: LẠY CHÚA. Nếu điều đó khiến bạn im lặng, được thôi.
 
-h: I'll say no.
+h: Tôi sẽ từ chối.
 
 `_.partyinvite="no"`
 
@@ -540,15 +540,15 @@ h: I'll say no.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: All we ever do is cry in a corner about how loneliness is as deadly as 15 cigarettes a day.
+b: Tất cả những gì chúng ta làm là ngồi khóc trong góc về việc sự cô đơn nguy hiểm bằng việc hút 15 điếu thuốc mỗi ngày.
 {{/if}}
 
 {{if _.parasite}}
-b: All we ever do at parties is worry about how we should be productive instead.
+b: Tất cả những gì chúng ta làm trong các bữa tiệc là lo lắng làm sao để có thể làm việc hiệu quả.
 {{/if}}
 
 {{if _.whitebread}}
-b: All we ever do is worry about how the unhealthy food options are going to kill us.
+b: Tất cả những gì chúng ta làm là lo lắng về việc lựa chọn thực phẩm không lành mạnh sẽ giết chết chúng ta.
 {{/if}}
 
 ```
@@ -556,19 +556,19 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: gee i wonder why.
+h: trời tôi thắc mắc tại sao.
 
 `hong({eyes:"neutral"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: So if we go we'll make them feel bad, but if we reject their invite we'll also make them feel bad!
+b: Vì thế nếu chúng ta đi, chúng ta sẽ khiến họ cảm thấy tệ, nhưng nếu chúng ta từ chối lời mời của họ chúng ta cũng sẽ khiến họ cảm thấy tệ!
 
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: ALL WE DO IS MAKE PEOPLE FEEL BAD, SO WE SHOULD FEEL BAD
+b: TẤT CẢ NHỮNG GÌ CHÚNG TA LÀM LÀ LÀM MỌI NGƯỜI CẢM THẤY TỒI TỆ, VÌ VẬY CHÚNG TA NÊN CẢM THẤY TỒI TỆ
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -579,9 +579,9 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. If it'll make you shut up, fine.
+h: LẠY CHÚA. Nếu điều đó khiến bạn im lặng, được thôi.
 
-h: I'll ignore the invite.
+h: Tôi sẽ lờ đi lời mời đó.
 
 `_.partyinvite="ignore"`
 
@@ -594,19 +594,19 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Anyway. Facebook's too much. I need something calmer, less anxiety-producing.
+h: Dù sao. Facebook là quá nhiều. Tôi cần thứ gì đó trầm lắng hơn, ít gây lo âu hơn.
 
 `hong({eyes:"neutral"});`
 
-h: What's new on Twitter?
+h: Có gì mới trên Twitter?
 
 `bb({eyes:"look"});`
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[Ôi không, nhìn bản tin khủng khiếp đó kìa!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[Ôi không, cái tweet đó có đang bí mật nói về *chúng ta*?](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[Ê kìa, một cái GIF mèo uống sữa](#act1d_milk)
 
 
 # act1d_news
@@ -616,14 +616,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: God, it feels like the world's burning, isn't it?
+b: Chúa ơi, cảm giác như thế giới đang bốc cháy, nhỉ?
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: It feels like it's all ending, like everything's dying and we're doomed and there's nothing we can do about it.
+b: Cảm giác như mọi thứ đang kết thúc, như thể mọi thứ đang chết dần và chúng ta sắp phải chịu số phận bi thảm và không còn gì chúng ta có thể làm được nữa.
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -634,7 +634,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Let's retweet that story!
+b: Retweet bản tin đó đi!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -652,11 +652,11 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Okay I'll retweet it just please be quiet!
+h: Được rồi mình sẽ retweet nó làm ơn nhỏ giọng xuống!
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
-h: Screw it, let's look at Snapchat.
+h: Thôi kệ đi, xem Snapchat nào.
 
 (#act1e)
 
@@ -665,35 +665,35 @@ h: Screw it, let's look at Snapchat.
 
 `bb({eyes:"fear"});`
 
-b: It's a subtweet! A sneaky, sneaky subtweet!
+b: Đây là một dòng tweet ẩn! Một dòng subtweet đầy ẩn ý, ​​thật là ẩn ý!
 
 `hong({eyes:"annoyed"});`
 
-h: It's probably not?
+h: Có lẽ không phải là vậy?
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but what if they're all talking behind our back
+b: nhưng nếu như họ đều đang nói xấu sau lưng chúng ta thì sao
 
-h: They're n--
+h: Họ không hề--
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
-b: IN FRONT OF OUR BACK
+b: ĐẰNG TRƯỚC LƯNG CHÚNG TA
 
 `hong({eyes:"sad", mouth:"sad"});`
 
-h: I d--
+h: Mình khô--
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but *what if*
+b: nhưng *nếu như*
 
 h: S--
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: *what if*
+b: *nếu như*
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -718,7 +718,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: được RỒI, mình sẽ thử Snapchat.
 
 (#act1e)
 
@@ -726,7 +726,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Heh ya that's cute, just retweeted it, I thi--
+h: Hehe ừ nó đáng yêu thật, vừa retweet nó xong, mình--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -734,7 +734,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: MÈO KHÔNG THỂ TIÊU HÓA SỮA VÀ CHÚNG TA LÀ NHỮNG NGƯỜI TỒI VÌ THÍCH NGƯỢC ĐÃI ĐỘNG VẬT
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -751,7 +751,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: được RỒI, mình sẽ thử Snapchat.
 
 (#act1e)
 
@@ -759,7 +759,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: Huh, photos from yesterday night. So *that's* what those weekly parties are like.
+h: Ớ, ảnh chụp từ tối qua. Vậy là những bữa tiệc hàng tuần như thế *đó* nhỉ.
 
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
@@ -771,29 +771,29 @@ h: Huh, photos from yesterday night. So *that's* what those weekly parties are l
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Oof, looks way too crowded for my anxiety.
+h: Ồ, nhìn quá đông đúc đối với sự lo âu của tôi.
 
-h: Maybe I shouldn't have said yes to the invite?
+h: Có lẽ tôi đã không nên đồng ý với lời mời đó?
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Change our answer? Like a jerk?!](#act1e_yes_dontchange)
+[Thay đổi phản hồi á? Như một tên khốn nạn á?!](#act1e_yes_dontchange)
 
-[Change our answer! It's too crowded!](#act1e_yes_changetono)
+[Thay đổi phản hồi đi! Nó quá đông đúc!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[Ừ họ hoàn toàn đang subtweet chúng ta.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Khoan chúng ta đã retweet mà chưa kiểm chứng thông tin.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Bạn biết rằng, tư thế của bạn thực sự rất tệ không?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
@@ -803,14 +803,14 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: They were counting on us to come and now we're betraying their trust? Do you wanna die alone?!
+b: Họ đã trông chờ chúng ta đến và giờ chúng ta phản bội lòng tin của họ sao? Bạn muốn chết vì cô đơn không?
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: MƯỜI. LĂM. ĐIẾU. THUỐC.
 {{/if}}
 
 {{if _.whalepoop}}
-b: WHALE. POOP.
+b: PHÂN. CÁ. VOI.
 {{/if}}
 
 ```
@@ -825,7 +825,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as yes!
+h: Im đi im đi tôi sẽ giữ nguyên là đồng ý!
 
 (#act1f)
 
@@ -836,7 +836,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Don't you know about human stampedes?
+b: Bạn không biết về các vụ giẫm đạp đám đông sao?
 
 ```
 bb({body:"fear", mouth:"small", eyes:"narrow"});
@@ -844,7 +844,7 @@ hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: In 2003 a Rhode Island nightclub had a fire and the panic made people jam the exits so 100 people burned to death-
+b: Năm 2003 một hộp đêm ở Rhode Island đã xảy ra hỏa hoạn và sự hoảng loạn đã khiến mọi người chặn lối thoát hiểm khiến 100 người bị thiêu chết-
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -852,14 +852,14 @@ hong({mouth:"shock"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DO YOU WANT THAT TO HAPPEN TO US-
+b: BẠN CÓ MUỐN ĐIỀU ĐÓ XẢY RA VỚI CHÚNG TA KHÔNG-
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY N-
+b: TỪ CHỐI ĐI TỪ CHỐI ĐI TỪ CHỐI ĐI TỪ CHỐI ĐI TỪ CHỐI ĐI TỪ CH-
 
 
 ```
@@ -875,7 +875,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to no! God!
+h: Im đi im đi tôi sẽ chuyển sang từ chối nó! Chúa ơi!
 
 (#act1f)
 
@@ -883,35 +883,35 @@ h: Shut up shut up I'll change my answer to no! God!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Ừm... trông vui thật đấy.
 
-h: Maybe I shouldn't have said no to the invite?
+h: Có lẽ tôi đã không nên từ chối với lời mời đó?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Change our answer? Like a jerk?!](#act1e_no_dontchange)
+[Thay đổi phản hồi á? Như một tên khốn nạn á?!](#act1e_no_dontchange)
 
-[Change our answer! Don't die alone!](#act1e_no_changetoyes)
+[Thay đổi phản hồi đi! Đừng chết trong cô đơn!](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[Ừ họ hoàn toàn đang subtweet chúng ta.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Khoan chúng ta đã retweet mà chưa kiểm chứng thông tin.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Bạn biết rằng, tư thế của bạn thực sự rất tệ không?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_no_dontchange
 
 `bb({eyes:"anger"})`
 
-b: Everybody was counting on us!
+b: Mọi người đều đang trông cậy vào chúng mình!
 
-b: ...to leave them alone and let them have a nice party without a horrible disgusting {{if _.whitebread}}white-bread-munching{{/if}} creep like u--
+b: ...để chúng ta để họ yên và để họ có một bữa tiệc vui vẻ mà không có một tên khốn kinh tởm {{if _.whitebread}}ăn-bánh-mì-trắng{{/if}} như chúng mì--
 
 
 ```
@@ -927,7 +927,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as no!
+h: Im đi im đi tôi sẽ giữ nguyên là từ chối nó!
 
 (#act1f)
 
@@ -938,7 +938,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Chronic loneliness increases our cortisol levels as well as risk for cardiovascular disease and stroke!
+b: Sự cô đơn kéo dài làm tăng mức cortisol cũng như nguy cơ mắc bệnh tim mạch và đột quỵ!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -948,7 +948,7 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: MƯỜI. LĂM. ĐIẾU. THUỐC.
 {{/if}}
 
 ```
@@ -957,7 +957,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to yes! God!
+h: Im đi im đi tôi sẽ chuyển thành đồng ý! Chúa ơi!
 
 (#act1f)
 
@@ -968,14 +968,13 @@ bb({eyes:"fear", mouth:"small"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: All our problematic tweets have come back to roost!
-
+b: Tất cả các dòng tweet tệ nạn của chúng mình đã quay lại gây ra vấn đề!
 ```
 bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: We're gonna get called out and cancelled and dragged with a rope on horseback down the information superhighway!
+b: Chúng ta sẽ bị nêu tên, bị tẩy chay và bị kéo lê bằng dây thừng trên lưng ngựa trên xa lộ thông tin!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -990,7 +989,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Tại sao cậu lại như thế này?!
 
 (#act1f)
 
@@ -1001,14 +1000,14 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're spreading disinformation! We're destroying trust in a free press!
+b: Chúng ta đang phát tán thông tin sai lệch! Chúng ta đang phá hủy niềm tin vào nền báo chí tự do!
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're the reason fascism will arise from the rubble of democracy!
+b: Chúng ta là lý do chủ nghĩa phát xít sẽ trỗi dậy từ đống đổ nát của nền dân chủ!
 
 ```
 bb({body:"normal", eyes:"anger"});
@@ -1024,7 +1023,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 _.factcheck = true;
 ```
 
-h: Why are you like this?!
+h: Tại sao cậu lại như thế này?!
 
 (#act1f)
 
@@ -1035,13 +1034,13 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do you want to have a pretzel for a spine?! Stop hunching over your screen!
+b: Bạn có muốn có một cái bánh quy xoắn làm xương sống không?! Đừng cúi gằm xuống màn hình nữa!
 
 ```
 bb({body:"meta"});
 ```
 
-b: That means you too.
+b: Bao gồm cả bạn nữa đó.
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1057,7 +1056,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Tại sao cậu lại như thế này?!
 
 (#act1f)
 
@@ -1065,27 +1064,27 @@ h: Why are you like this?!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Ừm... trông vui thật đấy.
 
-h: Maybe I shouldn't have ignored the invite?
+h: Có lẽ tôi đã không nên lờ đi lời mời đó?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Keep ignoring, we're still party poopers.](#act1e_ignore_continue)
+[Tiếp tục lờ họ đi, chúng ta vẫn là kẻ phá đám thôi.](#act1e_ignore_continue)
 
-[Actually, say yes.](#act1e_ignore_changetoyes)
+[Thực ra, đồng ý đi.](#act1e_ignore_changetoyes)
 
-[Actually, say no.](#act1e_ignore_changetono)
+[Thực ra, từ chối đi.](#act1e_ignore_changetono)
 
 # act1e_ignore_continue
 
 `hong({eyes:"annoyed"});`
 
-h: It's kinda rude to keep ignoring them though, no?
+h: Cứ lờ họ đi thì hơi bất lịch sự, đúng không?
 
 `bb({eyes:"normal_right"});`
 
-b: Well other people always ignore *us*, so
+b: Thì những người khác luôn phớt lờ *chúng ta*, vậy đó
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1096,7 +1095,7 @@ attack("18p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: so let's just call it even.
+b: vậy thì chúng ta cứ coi là hòa thôi.
 
 (#act1f)
 
@@ -1104,9 +1103,9 @@ b: so let's just call it even.
 
 `hong({eyes:"surprise", mouth:"smile"});`
 
-h: You're... letting me have fun?
+h: Cậu đang... để tôi vui vẻ sao?
 
-b: Well, I mean, loneliness *can* kill us.
+b: Thì, ý tôi là, sự cô đơn *có thể* giết chết chúng ta.
 
 `hong({eyes:"neutral", mouth:"neutral"});`
 
@@ -1116,7 +1115,7 @@ b: Well, I mean, loneliness *can* kill us.
 
 `bb({eyes:"narrow"});`
 
-b: It's too crowded. Crowds are dangerous.
+b: Quá đông đúc. Các đám đông rất nguy hiểm.
 
 (#act1e_yes_changetono)
 
