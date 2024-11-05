@@ -901,7 +901,6 @@ attack("20p", _.a2_attack_3);
 h: Đ^Ệ^T!
 
 h: CÁI Đ^ỆT^ Đ^Ụ MÁ^ *Đ^IIIIIIIỊT^*
-F^ACK^ING F^ACK^-F^AKK^ITY *F^AAAAACK^*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
@@ -1394,7 +1393,7 @@ b: Thế này tệ lắm, con người à. Điều này thực sự, thực sự
 
 [Tôi *biết* là chủ tiệc thật sự hỗn độn mà!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Hơn nữa, họ cũng có thể đãđã bỏ thuốc vào đó!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Hơn nữa, họ cũng có thể đã bỏ thuốc vào đó!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 
 # act2h_opt1
