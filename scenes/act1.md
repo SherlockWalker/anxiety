@@ -1365,8 +1365,7 @@ b: Sẽ ổn thôi.
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: Là con sói trung thành bảo vệ bạn, 
-As your loyal guard-wolf, tôi sẽ luôn để mắt tới nguy hiểm và cố gắng hết sức để giữ bạn được an toàn.
+b: Là con sói trung thành bảo vệ bạn, tôi sẽ luôn để mắt tới nguy hiểm và cố gắng hết sức để giữ bạn được an toàn.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
