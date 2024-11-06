@@ -6,7 +6,7 @@ Game.WORDS_HEIGHT_BOTTOM = 205;
 sfx("cheers");
 ```
 
-r: Cheers!
+r: Nâng ly!
 
 ```
 publish("act3",["roofhunter",1]);
@@ -23,41 +23,41 @@ publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",3]);
 ```
 
-h2: *Ah* that hits the spot.
+h2: *Ôi* mình thỏa mãn quá.
 
 ```
 publish("act3",["roofhunter",2]);
 publish("act3",["roofhong",2]);
 ```
 
-r: You know, kid...
+r: Cậu biết không, nhóc...
 
 ```
 publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",6]);
 ```
 
-h2: Specifically, the spots hit are my left and right amygdala.
+h2: Nói đúng hơn, phần được thỏa mãn là hạch hạnh nhân trái và phải của mình.
 
 ```
 publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: You remind me of myself when I was younger. Back when I was tormented by the animal in my head.
+r: Cậu làm mình nhớ lại chính mình khi còn trẻ. Hồi mình bị con thú trong đầu hành hạ ý.
 
 ```
 publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: I'm so grateful I can pay it forward, and help you kill the beast the way I killed mine.
+r: Mình rất biết ơn vì có thể đền đáp lại, và giúp cậu giết con quái vật đó theo cách mình đã giết con quái vật của mình.
 
 ```
 publish("act3",["roofhunter",2]);
 ```
 
-r: Hey, quick question: truth or da--
+r: Này, một câu hỏi nhỏ nhé: sự thật hay là--
 
 ```
 publish("act3",["roofhunter",3]);
@@ -65,7 +65,7 @@ publish("act3",["roofhong",7]);
 publish("act3-alpha", ["dizzyhong",0]);
 ```
 
-h2: DARE!
+h2: THỬ THÁCH!
 
 ```
 publish("act3-alpha", ["dizzyhong",1]);
@@ -73,14 +73,14 @@ publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Haha! Good.
+r: Haha! Được lắm.
 
 ```
 publish("act3",["roofhunter",21]);
 publish("act3",["roofhong",4]);
 ```
 
-r: Ok. You see that baby-blue swimming pool down there?
+r: Được. Cậu có thấy cái hồ bơi màu xanh nhạt kia không?
 
 ```
 publish("act3-alpha", ["dizzyhong",0]);
@@ -88,14 +88,14 @@ publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",9]);
 ```
 
-h2: Yeah? Six floors down?
+h2: Ừ? Cách sáu tầng bên dưới á?
 
 ```
 publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",8]);
 ```
 
-r: Jump in.
+r: Nhảy vào nó đi.
 
 ```
 publish("act3",["roofhunter",11]);
@@ -108,39 +108,39 @@ h2: ...
 publish("act3",["roofhong",11]);
 ```
 
-h2: Wait, what?
+h2: Khoan, cái gì cơ?
 
 ```
 publish("act3",["roofhong",10]);
 publish("act3",["roofhunter",2]);
 ```
 
-r: The animal's started whining, hasn't it?
+r: Con thú đó bắt đầu rên rỉ rồi à, đúng không?
 
 ```
 publish("act3",["roofhunter",23]);
 ```
 
-r: *Oh nooooo it's dangerous, don't do iiiiit.*
+r: *Ôi khônggg nó nguy hiểm lắm, đừng làm vậyyyyy.*
 
 ```
 publish("act3",["roofhunter",22]);
 ```
 
-r: But that's exactly why we need death-defying thrills! Party hard! Carpe diem! Snort coke off a hooker's ^ass^, #YOLO!
+r: Nhưng đó chính là lý do chúng ta cần mấy thứ hồi hộp thách thức tử thần! Tiệc tùng hết mình! Carpe diem! Hít cocaine từ mông của ^gái điếm^, #YOLO!
 
 ```
 publish("act3",["roofhunter",10]);
 ```
 
-r: Show that animal we don't give two *^dick^s* about its ^bitch^ing! Jump in.
+r: Hãy cho con thú đó thấy rằng chúng ta *đếch* quan tâm đến mấy câu lải nhải của nó! Nhảy vào đi.
 
 ```
 publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",13]);
 ```
 
-h2: Uh, but sometimes, um... fear has a point...
+h2: Ơ, nhưng đôi khi, ờm... nỗi sợ cũng có lý do của nó...
 
 ```
 publish("act3",["roofhunter",5]);
@@ -156,43 +156,43 @@ publish("act3",["roofhunter",6]);
 publish("act3",["dd",1]);
 ```
 
-r: I'm sorry, did you fall for that McMindfulness propaganda that claims feeling bad is *good?*
+r: Thứ lỗi, bạn đang tin vào lời tuyên truyền của McMindfulness rằng việc cảm thấy tệ là *tốt* à?
 
 ```
 publish("act3",["roofhunter",17]);
 ```
 
-r: The ^assholes^ who run this world give the rest of *us* anxiety and depression,
+r: Mấy kẻ ^khốn nạn^ điều hành thế giới này khiến những người còn lại như *chúng ta* lo lắng và chán nản,
 
 ```
 publish("act3",["roofhunter",18]);
 ```
 
-r: Then make TED Talks to tell us to "accept" being ^fucked^ over, and "embrace" that sadistic demon in our heads!
+r: Sau đó làm các bài diễn thuyết TED khuyên chúng ta "chấp nhận" việc bị đảo lộn và "chấp nhận" con quỷ tàn bạo ấy trong đầu chúng ta!
 
 ```
 publish("act3",["roofhunter",6]);
 ```
 
-r: Kid, I know that *you* know that animal *hurts* people like us. It *tortures* people like us.
+r: Nhóc, tôi biết là *cậu* biết rằng con thú đó *hại* những người như chúng ta. Nó *tra tấn* những người như chúng ta.
 
 ```
 publish("act3",["roofhunter",19]);
 ```
 
-r: It's not our friend. It's a rabid beast, which either needs to be *tranquilized*,
+r: Nó không phải là bạn của chúng ta. Nó là một con thú điên cuồng, cần phải được *gây mê*,
 
 ```
 publish("act3",["roofhunter",20]);
 ```
 
-r: Or have a *bullet put in its skull*.
+r: Hoặc nhận *một viên đạn vào hộp sọ*.
 
 ```
 publish("act3",["roofhunter",27]);
 ```
 
-r: Otherwise, you're going to let it win.
+r: Nếu không, cậu sẽ để nó thắng đấy.
 
 ```
 publish("act3",["roofhunter",31]);
@@ -200,7 +200,7 @@ publish("act3",["roofhong",14]);
 publish("act3",["dd",2]);
 ```
 
-h2: No. You're wrong.
+h2: Không. Bạn sai rồi.
 
 ```
 publish("act3",["roofhunter",13]);
@@ -210,7 +210,7 @@ music('battle_dark', {volume:1.0}, function(){
 });
 ```
 
-h2: I'm not going to let it win.
+h2: Mình sẽ không để nó thắng đâu.
 
 ```
 publish("act3",["roofhunter",25]);
@@ -219,7 +219,7 @@ publish("act3-alpha", ["transition",1]);
 publish("act3",["dd",6]);
 ```
 
-r: ^Fuck^ yeah! I believe in you, babe! Kill it! <3
+r: Tuyệt vời! Tôi tin vào cậu, cưng! Giết nó đi! <3
 
 (#act3a)
 
@@ -240,13 +240,13 @@ _.act3_bb_body = 1;
 publish("hp_show");
 ```
 
-b: no no no no no no
+b: không không không không không không
 
-n: THIS CHAPTER HAS TWO POSSIBLE ENDINGS. ONE IS *VERY, VERY BAD.*
+n: CHƯƠNG NÀY CÓ 2 CÁI KẾT KHẢ THI. MỘT TRONG SỐ CHÚNG *RẤT, RẤT TỆ.*
 
-b: NO NO NO NO NO NO NO NO NO NO NO NO NO NO
+b: KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG
 
-n: CHOOSE WISELY. PROTECT YOUR HUMAN
+n: LỰA CHỌN CẨN THẬN. BẢO VỆ CON NGƯỜI CỦA BẠN
 
 `bb({ eyes:"oh_crap", mouth:"normal_talk", MOUTH_LOCK:true });`
 
@@ -254,24 +254,24 @@ b: AAAAAAAAAAAAAAAAAA
 
 `bb({ mouth:"normal" });`
 
-n: GOOD LUCK
+n: CHÚC MAY MẮN
 
 ```
 Game.clearText();
 bb({ eyes:"start" });
 ```
 
-[Human, you could actually DIE here!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
+[Con người, bạn thực sự có thể CHẾT ở đây!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is stupid and self-destructive!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
+[Điều này thật ngu ngốc và hủy hoại bản thân!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[These sickos aren't really your friends!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
+[Mấy tên bệnh hoạn này không phải là bạn của bạn đâu!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act3a_harm
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: H--
+b: C--
 
 (#act3a_after)
 
@@ -279,7 +279,7 @@ b: H--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: M--
 
 (#act3a_after)
 
@@ -287,7 +287,7 @@ b: T--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: Đ--
 
 (#act3a_after)
 
@@ -307,9 +307,9 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You know, I might've believed you... if you hadn't tried that a zillion times before.
+h: Ngươi biết đấy, ta có thể tin ngươi... nếu ngươi chưa từng thử điều đó hàng triệu lần trước rồi.
 
-h: You're the wolf who cried wolf.
+h: Ngươi là con sói đã giả vờ kêu cứu.
 
 ```
 bb({ eyes:"sad" });
@@ -354,43 +354,43 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You tried that too.
+h: Ngươi cũng từng thử điều đó rồi.
 
-b: human, please...
+b: con người, làm ơn...
 
 `hong({ eyes:"look_right" });`
 
-h: Oh I'm *sorry* Big Pharma doesn't approve of my self-medication.
+h: À tôi *xin lỗi* rằng ngành công nghiệp dược phẩm không chấp nhận việc tôi tự kê đơn cho mình.
 
-h: Look ^asshole^, we *all* have a way of shutting you the ^fuck^ up.
+h: Này đồ ^khốn^, tất cả chúng ta đều có cách để khiến ngươi câm ^mẹ^ mồm lại.
 
 `hong({ body:"look_up", eyes:"look_up" });`
 
-h: Some people throw themselves into work.
+h: Một số người lao đầu vào công việc.
 
 `hong({ body:"look_down", eyes:"look_down" });`
 
-h: Some people throw themselves into sex, drugs, and refreshing their Facebook feed.
+h: Một số người lao đầu vào tình dục, ma túy và tải lại trang Facebook của mình.
 
 `hong({ body:"normal", eyes:"look_right" });`
 
-h: Some people throw themselves into other people. 
+h: Một số người lao đầu vào người khác.
 
 `hong({ eyes:"angry" });`
 
-h: I'm going to throw myself into that swimming pool.
+h: Ta sẽ lao đầu vào cái bể bơi đó.
 
-[You're drunk and it's SIX FLOORS DOWN](#act3_bad_1_harm)
+[Bạn đang say và nó CÁCH TA SÁU TẦNG BÊN DƯỚI](#act3_bad_1_harm)
 
-[Dang it, this is the thanks I get?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
+[Thật ạ, đây là lời cảm ơn tôi nhận được á?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
 
-[Okay, I admit it. I messed up.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[Được rồi, mình thừa nhận. Mình đã làm sai.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 # act3_bad_1_harm
 
-b: Even if you land in the water, the surface tension will crack your ribs and give you a concussion *at the least!*
+b: Ngay cả khi bạn nhảy vào nước, sức căng bề mặt sẽ *ít nhất* là làm gãy xương sườn của bạn và gây chấn động não!
 
-h: Eh.
+h: Thì.
 
 ```
 hong({body:"drink"});
@@ -406,7 +406,7 @@ hong({ body:"normal", mouth:"angry", eyes:"angry" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: I saw a Russian guy do this on YouTube once.
+h: Tôi từng xem một thằng người Nga làm thế trên YouTube rồi.
 
 (#act3_bad_2)
 
@@ -414,13 +414,13 @@ h: I saw a Russian guy do this on YouTube once.
 
 `hong({ eyes:"look_right" });`
 
-h: I- Excuse me, the *thanks?*
+h: Tôi- Xin lỗi, *lời cảm ơn* á?
 
 `bb({ eyes:"angry" });`
 
-b: This is exactly why I *exist!* Because humans can't be trusted to protect themselves!
+b: Đây chính xác là lý do tôi *tồn tại*! Vì con người không thể được tin tưởng với việc tự bảo vệ mình!
 
-b: I've been trying to protect your stupid butt all my life and now you're just going t--
+b: Tôi đã cố gắng bảo vệ cái mông ngu ngốc của bạn suốt cuộc đời tôi và bây giờ bạn lại đi--
 
 ```
 hong({body:"drink"});
@@ -442,7 +442,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `hong({ body:"laugh_1" })``
 
-h: heh.
+h: hề.
 
 `hong({ body:"laugh_2" })``
 
@@ -457,26 +457,26 @@ bb({ eyes:"sorry"});
 hong({ body:"yell_1", mouth:"yell", eyes:"blank" });
 ```
 
-h: Oh WOW is that the biggest *^fuck^ing* understatement of the century!
+h: Ôi trời, đây chính là sự đánh giá thấp một cách *^chết tiệt^* lớn nhất thế kỷ này!
 
 `hong({ body:"yell_2" });`
 
-h: Yeah, you rotting pile of blood-coated ^shit^! You messed the ^fuck^ up!
+h: Đúng rồi, tên phủ đầy máu ^thối tha^! Mày làm hỏng ^mẹ^ hết rồi!
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" });`
 
-h: Any other remarks, Captain Obvious?
+h: Còn lời nhận xét nào không, Captain Obvious?
 
-[But revenge on me isn't the answer!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Nhưng trả thù tôi không phải là câu trả lời!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[But this time I'm *actually* right!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Nhưng lần này tôi *thực sự* đúng!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[I've hurt you.](#act3_good_2a)
+[Tôi đã làm tổn thương bạn.](#act3_good_2a)
 
 
 # act3_good_1_fail_revenge
 
-b: You need to have a healthier relationship with your emotions, rather than drown them wi--
+b: Bạn cần có mối quan hệ lành mạnh hơn với cảm xúc của mình, thay vì nhấn chìm chúng bằng--
 
 ```
 hong({body:"drink"});
@@ -498,7 +498,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 # act3_good_1_fail_harm
 
-b: So please, put the bottle down and let's--
+b: Vậy nên, làm ơn hãy đặt chai xuống và chúng ta hãy--
 
 ```
 hong({body:"drink"});
@@ -523,24 +523,24 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `bb({ eyes:"sad" });`
 
-b: please... don't...
+b: làm ơn... đừng...
 
-h: Your energy bar's looking awfully low there, wolf.
+h: Thanh năng lượng của ngươi trông có vẻ thấp lắm đấy, sói ạ.
 
-h: If I were you, I'd choose your next words very carefully.
+h: Nếu ta là ngươi, ta sẽ lựa chọn mấy từ tiếp theo của ngươi một cách rất cẩn thận.
 
 `bb({ eyes:"normal" });`
 
-[Fine. I'm done protecting you.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
+[Được. Tôi xong việc bảo vệ anh rồi.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
 
-[I was right all along.](#act3_bad_2_right)
+[Tôi đã đúng từ đầu.](#act3_bad_2_right)
 
-[I'm sorry.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[Tôi xin lỗi.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 
 # act3_bad_2_jump
 
-b: So, go ahead and jump. See what I care.
+b: Vậy, cứ nhảy đi. Coi tôi còn quan tâm không.
 
 `hong({ eyes:"look_right", mouth:"normal", MOUTH_LOCK:true });`
 
@@ -551,14 +551,14 @@ hong({ eyes:"less_angry", mouth:"normal" });
 bb({ eyes:"ignore_oh_crap" });
 ```
 
-h: Okay then. Bottoms up.
+h: Được thôi. Cạn ly nào.
 
 ```
 bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF WHAT I SA--
+b: KHOAN ĐÓ LÀ TÂM LÝ HỌC NGHỊC ĐẢO BẠN ĐÁNG LẼ PHẢI LÀM *NGƯỢC* VỚI NHỮNG GÌ TÔI NÓ--
 
 (#act3_bad_3)
 
@@ -568,13 +568,13 @@ b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF
 
 `bb({ eyes:"angry" });`
 
-b: You *are* putting yourself in danger. Your so-called friends *are* using you. And *you* are using your so-called friends.
+b: Bạn *đang* tự đặt mình vào nguy hiểm. Những người được gọi là bạn bè của bạn *đang* lợi dụng bạn. Và *bạn* đang lợi dụng những người được gọi là bạn bè của bạn.
 
 `bb({ eyes:"sad" });`
 
-b: So please, human... why don't you believe me?!
+b: Vậy nên, con người... tại sao bạn không tin tôi?!
 
-h: Because you never believed in *me*.
+h: Bởi vì bạn chưa bao giờ tin vào *tôi*.
 
 (#act3_bad_3)
 
@@ -583,13 +583,13 @@ h: Because you never believed in *me*.
 
 `bb({ eyes:"angry" });`
 
-b: Other guard-wolves have humans who actually take time to patiently train them, to *learn* to work together,
+b: Những con sói bảo vệ khác có những con người thực sự dành thời gian để kiên nhẫn huấn luyện chúng, để *học* cách làm việc cùng nhau,
 
-b: Rather than hate the guard-wolves for trying to protect them! So why can't you jus--
+b: Thay vì ghét những con sói bảo vệ vì đã cố gắng bảo vệ chúng! Vậy tại sao bạn không thể--
 
 `bb({ eyes:"normal" });`
 
-h: Wrong ^fuck^ing answer.
+h: Trả lời sai rồi.
 
 (#act3_bad_3)
 
@@ -614,29 +614,29 @@ bb({ body:"dead" });
 
 (...999)
 
-h: *"The only thing to fear is fear itself."*
+h: *"Điều duy nhất đáng sợ chính là nỗi sợ hãi."*
 
 `hong({ body:"look_up", mouth:"happy", eyes:"blank" });`
 
-h: *"Don't worry, be happy!"*
+h: *"Đừng lo lắng, vui vẻ lên!"*
 
 `hong({ body:"normal", mouth:"normal", eyes:"normal" });`
 
-h: All the wise folk of our time agree: negative emotions are *bad!*
+h: Tất cả những người thông thái thời nay đều đồng ý: cảm xúc tiêu cực là *xấu!*
 
 `hong({ eyes:"less_angry" });`
 
-h: Duh! That's why they're called *negative!*
+h: Ờ! Chính thế nên chúng mới được gọi là *tiêu cực!*
 
-b: human... please...
+b: con người... làm ơn...
 
 `hong({ eyes:"normal" });`
 
-h: A while back, I said: “I just want to be free from all this pain.”
+h: Hồi trước, ta từng nói: “mình chỉ muốn được tự do khỏi tất cả... nỗi đau này.”
 
-h: I got my wish. I no longer feel pain, or fear, or anxiety...
+h: Ta có được điều ước đó rồi. Ta không còn cảm thấy đau đớn, sợ hãi hay lo lắng nữa...
 
-h: I don't feel anything at all.
+h: Ta không còn cảm thấy gì nữa.
 
 `_.a3_ending = "jump";`
 
@@ -648,22 +648,22 @@ h: I don't feel anything at all.
 
 `bb({mouth:"sorry", eyes:"sorry_down"});`
 
-b: I was so obsessed with making sure nothing else hurt you, that I didn't realize *I* was creating the hurt.
+b: Tôi đã quá ám ảnh với việc đảm bảo không có điều gì khác làm tổn thương bạn, đến nỗi tôi không nhận ra rằng *tôi* đang tạo ra nỗi đau đó.
 
 ```
 bb({ eyes:"sorry"});
 hong({ body:"yell_2", mouth:"yell", eyes:"blank" });
 ```
 
-h: NO. S^HIT^.
+h: CHẢ. THẾ.
 
 `hong({ body:"yell_1" });`
 
-h: ^GODDAMN^. It really took you this long to finally figure it out?!
+h: ^VÃI CHƯỞNG^. Phải mất nhiều thời gian như vậy ngươi mới hiểu ra sao?!
 
 `hong({ body:"cry", mouth:"cry", eyes:"blank" });`
 
-h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't you realize this sooner?...
+h: Ngươi có thể đã cứu chúng ta khỏi nhiều rắc rối như vậy, đồ ngốc nghếch xù lông ạ. Tại sao ngươi không nhận ra điều này sớm hơn?...
 
 `_.apologized_for_hurt = true;`
 
@@ -675,13 +675,13 @@ h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't y
 
 `hong({ body:"normal", mouth:"angry", eyes:"look_right" });`
 
-h: ...you're *sorry.*
+h: ...bạn *xin lỗi*
 
 `hong({ eyes:"angry", MOUTH_LOCK:true });`
 
 h: ...
 
-h: Sorry for *what*?
+h: Xin lỗi vì *gì cơ*?
 
 (#act3_good_2q)
 
@@ -703,22 +703,22 @@ h: Sorry for *what*?
 
 `hong({ body:"normal", mouth:"angry", eyes:"less_angry" });`
 
-[I'm sorry I wasn't a good protector.](#act3_good_3_protector)
+[Tôi xin lỗi vì đã không phải là bảo vệ tốt.](#act3_good_3_protector)
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[Tôi xin lỗi vì đã không tôn trọng bạn.](#act3_good_3_respect)
 
-[I'm sorry.](#act3_good_4)
+[Tôi xin lỗi.](#act3_good_4)
 
 
 # act3_good_2q_not_already_apologized
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" }, 0);`
 
-[I'm sorry I have a terrible human!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
+[Tôi xin lỗi vì tôi có một con người tệ hại!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[Tôi xin lỗi vì đã không tôn trọng bạn.](#act3_good_3_respect)
 
-[I'm sorry I hurt you.](#act3_good_3_hurt)
+[Tôi xin lỗi vì đã làm tổn thương bạn.](#act3_good_3_hurt)
 
 
 
@@ -726,19 +726,19 @@ h: Sorry for *what*?
 
 `bb({eyes:"sorry_down"});`
 
-b: It's my duty to warn you against *real* danger, but I kept barking at cars and the mailman.
+b: Nhiệm vụ của tôi là cảnh báo bạn về mối nguy hiểm *thực sự*, nhưng tôi cứ sủa vào xe cộ và người đưa thư.
 
 `bb({eyes:"sorry_up"});`
 
-b: Barking at shadows. Barking so much.
+b: Sủa vào bóng tối. Sủa nhiều quá.
 
 `bb({eyes:"sorry"});`
 
-b: It only makes sense that you'd want to muzzle me.
+b: Cũng hợp lý khi bạn chỉ còn muốn bịt miệng tôi lại thôi.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Tôi xin lỗi.
 
 (#act3_good_4)
 
@@ -748,15 +748,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was supposed to be *your* loyal guard-dog, but I acted as if you were supposed to obey *me*.
+b: Tôi đáng lẽ phải là chú chó canh gác trung thành của *bạn*, nhưng tôi lại hành động như thể bạn phải tuân lệnh *tôi*.
 
 `bb({eyes:"sorry_up"});`
 
-b: There's a difference between a protector and a prison warden, and I crossed the line.
+b: Có khác biệt giữa người bảo vệ và quản giáo nhà tù, và tôi đã đi quá ranh giới đó.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Tôi xin lỗi
 
 (#act3_good_4)
 
@@ -766,15 +766,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was so obsessed with trying to protect you from being hurt, I never stopped to realize *I* was hurting you.
+b: Tôi đã quá ám ảnh với việc cố gắng bảo vệ bạn khỏi bị tổn thương, tôi chưa bao giờ dừng lại để nhận ra rằng *tôi* đang làm tổn thương bạn.
 
 `bb({eyes:"sorry_up"});`
 
-b: I was a bad dog.
+b: Tôi là một con chó hư.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Tôi xin lỗi.
 
 (#act3_good_4)
 
@@ -792,11 +792,11 @@ h: ...
 hong({ body:"stop", mouth:"stop", eyes:"blank" });
 ```
 
-h: Yeah, well, this was a dumb idea anyway.
+h: Ừ, thì, dù sao đây cũng là một ý tưởng ngớ ngẩn.
 
-h: I only did this to mess you up, and, well, I messed you up.
+h: Tôi chỉ làm thế để làm cậu rối trí thôi, và, ừ thì, tôi đã làm rối trí cậu.
 
-h: Let's just call this round a tie, okay?
+h: Coi vòng này là hòa nhé, được không?
 
 ```
 bb({ mouth:"sorry", eyes:"sorry" });
@@ -805,11 +805,11 @@ bb({ MOUTH_LOCK:true });
 
 b: ...
 
-b: Okay.
+b: Được thôi.
 
-h: Okay.
+h: Được thôi.
 
-n: *TIE*
+n: *HÒA*
 
 `_.a3_ending = "walkaway";`
 
@@ -885,26 +885,26 @@ publish("act3",["roofhunter",27]);
 
 `Game.FORCE_CANT_SKIP = false;`
 
-r: Oh *come on*. After all that animal's done to you, you're just *giving up?*
+r: Ồ *thôi nào*. Sau tất cả những gì con thú đó làm với bạn, bạn đang *bỏ cuộc sao?*
 
-r: What's the matter, kid? Are you *scared?*
+r: Chuyện gì thế nhóc? Cậu *sợ* à?
 
 ```
 publish('hong-next');
 publish("act3",["roofhunter",26]);
 ```
 
-h2: Yes.
+h2: Ừ.
 
-h2: I'm scared.
-
-`publish('hong-next')`
-
-h2: And that's okay!
+h2: Mình sợ.
 
 `publish('hong-next')`
 
-h2: It's okay to be scared.
+h2: Và điều đó không sao cả!
+
+`publish('hong-next')`
+
+h2: Hoàn toàn không sao khi ta sợ hãi.
 
 `publish('hong-next')`
 
@@ -973,7 +973,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: Did they just lock the door?
+r: Họ vừa khóa cửa đó à?
 
 ```
 Game.clearAll();
@@ -1063,7 +1063,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no...
+b: không...
 
 (...501)
 
@@ -1082,7 +1082,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no no no
+b: không không không
 
 (...501)
 
@@ -1150,7 +1150,7 @@ Game.FORCE_TEXT_Y = 325;
 Game.OVERRIDE_FONT_SIZE = 50;
 ```
 
-b: NO!
+b: KHÔNG!
 
 (...400)
 
