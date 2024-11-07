@@ -215,25 +215,24 @@ hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: Vậy thì bài học rút ra từ câu chuyện này là gì?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
-
+h: Chúng ta đã học được cái *quái* gì? Tôi *thực sự có* hành động ngu ngốc, "bạn bè" của tôi *thực sự có* lợi dụng tôi, và chúng ta suýt *chết*.
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[Ừ, mà chưa tính cả hóa đơn viện phí á.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[Ừ, mà chưa tính cả tổn thương gan á.](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[Ừ, đó *là* tình huống xấu nhất á.](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[Ừ, tôi đã đúng.](#act4a_right)
 
 # act4a_bill
 
