@@ -4,7 +4,7 @@
 
 # intro-play-button
 
-[<div class="mini-icon" pic="play1"></div> PLAY! <div class="mini-icon" pic="play2"></div>](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[<div class="mini-icon" pic="play1"></div> BẮT ĐẦU! <div class="mini-icon" pic="play2"></div>](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 
 # intro-start
 
@@ -24,7 +24,7 @@ n3: derp
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: ĐÂY LÀ MỘT CON NGƯỜI
 
 (...600)
 
@@ -40,21 +40,21 @@ n2: THIS IS A HUMAN
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: VÀ ĐÂY LÀ SỰ LO ÂU CỦA CON NGƯỜI ĐÓ
 
-n: _YOU_ ARE THE ANXIETY
+n: _BẠN_ LÀ SỰ LO ÂU
 
-[You're eating alone for lunch! Again!](#act1a_alone)
+[Chúng ta lại đang ngồi ăn trưa một mình! Lần nữa!](#act1a_alone) 
 
-[You're not productive while eating!](#act1a_productive)
+[Chúng ta đang không hề năng suất trong khi ăn!](#act1a_productive) 
 
-[That white bread's bad for you!](#act1a_bread)
+[Bánh mì trắng đó không tốt cho chúng ta!](#act1a_bread)
 
 # act1a_alone
 
 `bb({mouth:"small", eyes:"narrow"})`
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: Bạn không biết rằng sự cô đơn có liên quan đến tử vong sớm ngang với việc hút 15 điếu thuốc mỗi ngày sao?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -64,17 +64,17 @@ b: (Holt-Lunstad et al, 2010, PLoS Medicine)
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Ờ, cảm ơn vì đã trích dẫn nguồn thông tin nhưng--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if you don't hang out with someone *right now* you're gonna-
+b: Nghĩa là nếu chúng ta không chơi với ai *ngay bây giờ* chúng ta sẽ-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: CHẾẾẾẾẾẾẾẾẾẾẾẾẾẾẾẾẾẾT
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
