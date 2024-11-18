@@ -31,6 +31,7 @@ publish("act2",["party_hong","next"]);
 ```
 
 h2: x-xin chào...
+
 ```
 publish("act2",["party_hunter",1]);
 publish("act2",["party_hong","next"]);
