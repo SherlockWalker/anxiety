@@ -133,7 +133,7 @@ r: Nhưng đó chính là lý do chúng ta cần mấy thứ hồi hộp thách 
 publish("act3",["roofhunter",10]);
 ```
 
-r: Hãy cho con thú đó thấy rằng chúng ta *đếch* quan tâm đến mấy câu lải nhải của nó! Nhảy vào đi.
+r: Hãy cho con thú đó thấy rằng chúng ta ^đếch^ quan tâm đến mấy câu lải nhải của nó! Nhảy vào đi.
 
 ```
 publish("act3",["roofhunter",11]);
@@ -168,7 +168,7 @@ r: Mấy kẻ ^khốn nạn^ điều hành thế giới này khiến những ng�
 publish("act3",["roofhunter",18]);
 ```
 
-r: Sau đó làm các bài diễn thuyết TED khuyên chúng ta "chấp nhận" việc bị đảo lộn và "chấp nhận" con quỷ tàn bạo ấy trong đầu chúng ta!
+r: Sau đó làm các bài diễn thuyết TED khuyên chúng ta "chấp nhận" việc bị ^đảo lộn con mẹ^ và "chấp nhận" con quỷ tàn bạo ấy trong đầu chúng ta!
 
 ```
 publish("act3",["roofhunter",6]);
@@ -219,7 +219,7 @@ publish("act3-alpha", ["transition",1]);
 publish("act3",["dd",6]);
 ```
 
-r: Tuyệt vời! Tôi tin vào cậu, cưng! Giết nó đi! <3
+r: Tuyệt ^vãi cả^ vời! Tôi tin vào cậu, cưng! Giết nó đi! <3
 
 (#act3a)
 
@@ -240,11 +240,11 @@ _.act3_bb_body = 1;
 publish("hp_show");
 ```
 
-b: không không không không không không
+b: không không không không không không không không
 
 n: CHƯƠNG NÀY CÓ 2 CÁI KẾT KHẢ THI. MỘT TRONG SỐ CHÚNG *RẤT, RẤT TỆ.*
 
-b: KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG
+b: KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG
 
 n: LỰA CHỌN CẨN THẬN. BẢO VỆ CON NGƯỜI CỦA BẠN
 
@@ -265,7 +265,7 @@ bb({ eyes:"start" });
 
 [Điều này thật ngu ngốc và hủy hoại bản thân!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Mấy tên bệnh hoạn này không phải là bạn của bạn đâu!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
+[Mấy tên bệnh hoạn này không phải là bạn của bạn!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act3a_harm
 
@@ -589,7 +589,7 @@ b: Thay vì ghét những con sói bảo vệ vì đã cố gắng bảo vệ ch
 
 `bb({ eyes:"normal" });`
 
-h: Trả lời sai rồi.
+h: Trả lời sai ^vãi đạn^ luôn rồi.
 
 (#act3_bad_3)
 
@@ -655,7 +655,7 @@ bb({ eyes:"sorry"});
 hong({ body:"yell_2", mouth:"yell", eyes:"blank" });
 ```
 
-h: CHẢ. THẾ.
+h: ĐÚNG. ^VÃI^.
 
 `hong({ body:"yell_1" });`
 
@@ -663,7 +663,7 @@ h: ^VÃI CHƯỞNG^. Phải mất nhiều thời gian như vậy ngươi mới h
 
 `hong({ body:"cry", mouth:"cry", eyes:"blank" });`
 
-h: Ngươi có thể đã cứu chúng ta khỏi nhiều rắc rối như vậy, đồ ngốc nghếch xù lông ạ. Tại sao ngươi không nhận ra điều này sớm hơn?...
+h: Ngươi có thể đã cứu chúng ta khỏi nhiều rắc rối như vậy, đồ ^ngốc nghếch^ xù lông ạ. Tại sao ngươi không nhận ra điều này sớm hơn?...
 
 `_.apologized_for_hurt = true;`
 
