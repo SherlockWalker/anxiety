@@ -1753,6 +1753,8 @@ s: CHÚNG TA ĐÃ NGẮT CHẶN QUÁ TRÌNH XỬ LÝ CẢM XÚC CỦA HỌ! GI�
 
 (#act4e)
 
+# act4e
+
 ```
 Game.WORDS_HEIGHT_BOTTOM = 195;
 publish("act4", ["alshire", 6]);
