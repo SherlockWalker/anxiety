@@ -1,37 +1,46 @@
-![](https://ncase.me/anxiety/sharing/banner.png)
+![](https://sherlockwalker.github.io/anxiety/sharing/banner.png)
 
-# [Play the interactive story here!](https://ncase.me/anxiety/)
+# [Phát câu chuyện tương tác tại đây!](https://sherlockwalker.github.io/anxiety/index.html)
 
-## Public Domain
+## Miền công cộng
 
-Nicky Case and Monplaisir hereby dedicate all their work for this game to the public domain, under [Creative Commons Zero](https://creativecommons.org/choose/zero/).
-That means: you can remix and reuse *any* of the original art / code / music in this game for *any* purpose, even commercial use!
+Nicky Case và Monplaisir xin dành tặng toàn bộ tác phẩm của họ cho trò chơi này cho miền công cộng, theo [Creative Commons Zero](https://creativecommons.org/choose/zero/).
+Điều đó có nghĩa là: bạn có thể phối lại và tái sử dụng *bất kỳ* tác phẩm nghệ thuật / mã / nhạc gốc nào trong trò chơi này cho *bất kỳ* mục đích nào, ngay cả mục đích thương mại!
 
-**Q:** Do I have to give attribution?    
-**A:** You're not *legally* required to, but it's highly appreciated! <3
+**Q:** Tôi có phải ghi nguồn không?
 
-**Q:** Legally speaking, can I claim *I* made this?    
-**A:** Yes, the same way you're legally allowed to claim to have written Mary Shelley's Frankenstein, or claim you have 13 nipples.
+**A:** Về mặt pháp lý, bạn không bắt buộc phải làm vậy, nhưng chúng tôi rất trân trọng điều đó! <3
 
-**Q:** Can I post this game on other sites?    
-**A:** Maybe. Though it's completely legal copyright-wise, many sites have their own policies against posting other people's public domain/open source work *without* significant modifications. (But if it's your own site, then by all means, please mirror this game!)
 
-**Q:** Can I sell a port of this game?    
-**A:** Yes! But to avoid confusion, I recommend labeling your game as "Fan-Made Port", and *link to this statement saying I'm explicitly allowing commercial remixes*. (Example: [a Steam port of another one of my games!](https://store.steampowered.com/app/1103210/We_Become_What_We_Behold_FanMade_Port/)) This is to avoid accusations of theft from folks who weren't aware I always open-source + public-domain my projects.
+**Q:** Về mặt pháp lý, tôi có thể tuyên bố *tôi* đã tạo ra tác phẩm này không?
 
-**Q:** Can I turn this game into a dating sim between the human and wolf?   
+**A:** Có, theo cùng cách mà bạn được pháp luật cho phép tuyên bố rằng mình đã viết Frankenstein của Mary Shelley hoặc tuyên bố rằng mình có 13 núm vú. 
+
+
+**Q:** Tôi có thể đăng trò chơi này lên các trang web khác không?
+
+**A:** Có thể. Mặc dù hoàn toàn hợp pháp về mặt bản quyền, nhiều trang web có chính sách riêng của họ về việc không đăng tác phẩm thuộc phạm vi công cộng/nguồn mở của người khác *mà không* có những sửa đổi đáng kể. (Nhưng nếu đó là trang web của riêng bạn, thì hãy sao chép trò chơi này!) 
+
+
+**Q:** Tôi có thể bán bản port của trò chơi này không?
+
+**A:** Có! Nhưng để tránh nhầm lẫn, tôi khuyên bạn nên dán nhãn trò chơi của mình là "Bản port do người hâm mộ tạo" và *liên kết đến tuyên bố này nói rằng tôi rõ ràng cho phép các bản phối lại thương mại*. (Ví dụ: [một bản port Steam của một trong những trò chơi khác của tôi!](https://store.steampowered.com/app/1103210/We_Become_What_We_Behold_FanMade_Port/)) Điều này là để tránh những lời buộc tội ăn cắp từ những người không biết rằng tôi luôn mã nguồn mở + cấp phép cho các dự án của mình. 
+
+
+**Q:** Tôi có thể biến trò chơi này thành trò chơi mô phỏng hẹn hò giữa người và sói không? 
+
 **A:** uh
 
 
-## Full Credits
+## Đầy đủ thông tin
 
-Art / Code / Writing by [Nicky Case](https://ncase.me/)
+Nghệ thuật / Mã / Viết bởi [Nicky Case](https://ncase.me/)
 
-Music by [Monplaisir](https://loyaltyfreakmusic.com)
+Âm nhạc bởi [Monplaisir](https://loyaltyfreakmusic.com)
 
-Extra code by [Spacie](https://spacie.me)
+Mã bổ sung bởi [Spacie](https://spacie.me)
 
-**Sound Effects from FreeSound.org (Creative Commons)**
+**Hiệu ứng âm thanh từ FreeSound.org (Creative Commons)**
 
 * [Intro Scream](https://freesound.org/people/analogchill/sounds/35716/) by MaderaDelEste Films
 * [Dramatic Hit](https://freesound.org/people/qubodup/sounds/222517/) by qubodup
@@ -81,19 +90,19 @@ Extra code by [Spacie](https://spacie.me)
 * [Bottle on Concrete](https://freesound.org/people/13GPanska_Gorbusinova_Anna/sounds/377986/) by 13GPanska\_Gorbusinova\_Anna
 * [Cartoon Running](https://freesound.org/people/Mountain852/sounds/365830/) by Mountain852
 
-**Sound Effects from Kenney.nl (All Creative Commons Zero)**
+**Hiệu ứng âm thanh từ Kenney.nl (Tất cả Creative Commons Zero)**
 
 * [Digital Audio Pack](https://kenney.nl/assets/digital-audio)
 * [RPG Audio Pack](https://kenney.nl/assets/rpg-audio)
 * [UI Audio Pack](https://kenney.nl/assets/ui-audio)
 
-**Copyrighted Sounds That I Really Hope Count As Fair Use:**
+**Âm thanh có bản quyền mà tôi thực sự hy vọng được tính là sử dụng hợp lý:**
 
-* The Pokémon theme song is © The Pokémon Company. I used a ~22s  instrumental clip for a parody song about Tinder.
-* The "Hadouken!" sound is © Capcom. I used it as parody for the anxiety wolf's Special Attack.
+* Bài hát chủ đề Pokémon là © The Pokémon Company. Tôi đã sử dụng một đoạn nhạc không lời ~22s cho một bài hát nhại về Tinder.
+* Âm thanh "Hadouken!" là © Capcom. Tôi đã sử dụng nó như một bản nhại cho Đòn tấn công đặc biệt của con sói lo lắng.
 
 
-**Open Source Libraries**
+**Thư viện nguồn mở**
 
 * [Howler.js](https://howlerjs.com/) by James Simpsson for sounds
 * [MinPubSub](https://github.com/daniellmb/MinPubSub) by Daniel Lamb for pub/sub
@@ -101,11 +110,15 @@ Extra code by [Spacie](https://spacie.me)
 * [Simple Sharing Buttons](https://simplesharingbuttons.com/) by Stefan Bohacek
 * [Ceaser](https://matthewlein.com/tools/ceaser) by Matthew Lein for CSS animation
 
-**Thank you to my playtesters!**
+**Cảm ơn những người chơi thử của tôi!**
 
 B Cavello, EmilyKate McDonough, Glen Chiacchieri, Mikayla Hutchinson, Monica Srivastava, Rowan, Srini Kadamati
 
-**And of course, thank you to the generous support of [my fans on Patreon.](https://www.patreon.com/ncase)** Luv y'all <3
+**Và tất nhiên, cảm ơn sự ủng hộ hào phóng của [người hâm mộ của tôi trên Patreon.](https://www.patreon.com/ncase)** Yêu tất cả mọi người <3
+
+-------------
+
+(If you really want to translate things go to [https://github.com/ncase/anxiety/](https://github.com/ncase/anxiety/) instead! Thank you for playing my translation!)
 
 ## How To Translate
 
