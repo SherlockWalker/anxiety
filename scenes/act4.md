@@ -238,11 +238,11 @@ h: Chúng ta đã học được cái *quái* gì? Tôi *thực sự có* hành 
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: Ừ. Mình không nghĩ là bảo hiểm của mình có chi trả cho việc "trở thành một kẻ ^ngốc tử^".
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: Vậy mà... chúng ta đã sống sót!
 
 `hong({eyes:"normal"});`
 
@@ -254,11 +254,11 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: We definitely shaved a few years off our life expectancy...
+b: Chúng ta chắc chắn đã mất đi vài năm tuổi thọ của mình...
 
 `bb({eyes:"surprise"});`
 
-b: But at least we still *have* a life expectancy! We survived!
+b: Nhưng ít nhất chúng ta vẫn *có* tuổi thọ! Chúng ta đã sống sót!
 
 ```
 hong({eyes:"surprise"});
@@ -273,13 +273,13 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: And yet...
+b: Vậy mà...
 
 h: Hm?
 
 `bb({eyes:"surprise"});`
 
-b: We survived!
+b: Chúng ta đã sống sót!
 
 (#act4b)
 
@@ -287,7 +287,7 @@ b: We survived!
 
 `bb({eyes:"normal_d"});`
 
-b: But... you were right, too.
+b: Nhưng... bạn cũng đúng.
 
 `hong({eyes:"surprise"});`
 
@@ -295,11 +295,11 @@ h: Hm?
 
 `bb({eyes:"normal"});`
 
-b: I *was* the wolf who cried wolf. So when *actual* danger came, you – justifiably – didn't believe me.
+b: Tôi *là* con sói đã giả vờ kêu sói. Vì vậy, khi nguy hiểm *thực sự* xảy ra, bạn – một cách chính đáng – đã không tin tôi.
 
 `bb({eyes:"surprise_r"});`
 
-b: And yet, we survived!
+b: Vậy mà, chúng ta đã sống sót!
 
 (#act4b)
 
@@ -310,16 +310,16 @@ bb({eyes:"normal", mouth:"normal"});
 hong({eyes:"normal", mouth:"normal"});
 ```
 
-b: Despite everything, we're still here.
+b: Bất chấp mọi chuyện, chúng ta vẫn ở đây.
 
 `hong({eyes:"suspect"});`
 
 {{if _.INJURED}}
-h: You seem pretty calm considering we just had a near-death experience.
+h: Bạn có vẻ khá bình tĩnh khi chúng ta vừa trải qua một trải nghiệm suýt chết.
 {{/if}}
 
 {{if !_.INJURED}}
-h: You seem pretty calm considering we just had a *near*-near-death experience.
+h: Cậu có vẻ khá bình tĩnh khi chúng ta vừa trải qua một trải nghiệm *suýt* suýt chết.
 {{/if}}
 
 ```
@@ -327,21 +327,21 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Well, it makes everything else less scary in comparison. It's also got me thinking.
+b: Thì, nó làm cho mọi thứ khác bớt đáng sợ hơn khi so sánh. Nó cũng khiến tôi suy nghĩ.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: If me fighting you sucks, because it doesn't protect you...
+b: Nếu việc tôi đánh nhau với bạn là tệ, vì nó không bảo vệ được bạn...
 
-h: But me fighting you *also* sucks, because it just makes you yell louder...
+h: Nhưng việc tôi đánh nhau với bạn *cũng* tệ, vì nó chỉ khiến bạn hét lớn hơn...
 
 `bb({eyes:"normal_r"})`
 
-b: Then maybe...
+b: Thì có lẽ...
 
 `bb({eyes:"normal"})`
 
-h: Maybe we don't have to fight.
+h: Có lẽ chúng ta không phải đánh nhau.
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -380,15 +380,15 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: I'm not a Big Bad Wolf. But I'm not a guard-wolf either.
+b: Tôi không phải là một con Sói hung dữ. Nhưng tôi cũng không phải là một chú chó canh gác.
 
 `bb({eyes:"sad_d"})`
 
-b: I'm a battered shelter dog.
+b: Tôi là một chú chó bị bỏ rơi ở trại cứu hộ.
 
 `bb({eyes:"sad"})`
 
-b: We've been through rough stuff. Maybe trauma or neglect. That's why I sometimes over-react and go:
+b: Chúng ta đã trải qua nhiều thứ khó khăn. Có lẽ là chấn thương hoặc bị bỏ bê. Đó là lý do tại sao đôi khi tôi phản ứng thái quá và nói:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -409,35 +409,35 @@ Game.FORCE_CANT_SKIP = false;
 bb({body:"normal", mouth:"scream", eyes:"scream_sad"});
 ```
 
-b: But I don't *want* to be a cowardly dog! I want to protect you! I want to be a good dog!
+b: Nhưng tôi không *muốn* trở thành một chú chó hèn nhát! Tôi muốn bảo vệ bạn! Tôi muốn trở thành một chú chó ngoan!
 
 `bb({eyes:"sad", mouth:"normal"});`
 
-b: Human... will you help tame this wolf?
+b: Con người... bạn có thể giúp thuần hóa con sói này không?
 
 `hong({eyes:"sad"})`
 
-h: I... I'll try.
+h: Tôi... Tôi sẽ cố.
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: Okay. Healthy relationship with emotions. Relationships need communication. So, let's communicate.
+h: Được rồi. Mối quan hệ lành mạnh với cảm xúc. Mối quan hệ cần giao tiếp. Vậy, hãy giao tiếp.
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
-h: The next five minutes are going to sound super cheesy, but let's fake it 'til we make it.
+h: Năm phút tiếp theo sẽ nghe có vẻ rất sến súa, nhưng hãy giả vờ cho đến khi chúng ta làm được.
 
 ```
 hong({body:"hands_2", mouth:"normal"});
 ```
 
-h: Dear inner wolf... how are *you* feeling?
+h: Con sói tâm hồn thân mến... *bạn* cảm thấy thế nào?
 
-n2: TOTAL FEARS USED:
+n2: TỔNG NHỮNG NỖI SỢ ĐÃ SỬ DỤNG:
 
-n2: *HARMED* {{_.attack_harm_total}}, *UNLOVED* {{_.attack_alone_total}}, *BAD PERSON* {{_.attack_bad_total}}
+n2: *BỊ TỔN THƯƠNG* {{_.attack_harm_total}}, *KHÔNG ĐƯỢC YÊU THƯƠNG* {{_.attack_alone_total}}, *TRỞ THÀNH NGƯỜI XẤU* {{_.attack_bad_total}}
 
-n2: WHAT FEAR DO YOU WANT TO TALK ABOUT FIRST? (YOU CAN DO THE OTHERS LATER)
+n2: BẠN MUỐN NÓI VỀ NỖI SỢ NÀO ĐẦU TIÊN? (BẠN CÓ THỂ NÓI VỀ NHỮNG ĐIỀU KHÁC SAU)
 
 ```
 _.a4_fears_discussed = 0;
@@ -446,11 +446,11 @@ hong({body:"normal"});
 bb({eyes:"normal"});
 ```
 
-[I'm scared we'll be harmed.](#act4_harm)
+[Tôi sợ chúng ta sẽ bị tổn thương.](#act4_harm)
 
-[I'm scared we'll be alone.](#act4_alone)
+[Tôi sợ chúng ta sẽ cô đơn.](#act4_alone)
 
-[I'm scared we're bad people.](#act4_bad)
+[Tôi sợ chúng ta là người xấu.](#act4_bad)
 
 # act4_harm
 
@@ -461,92 +461,92 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: I want to protect your need for physical safety,
+b: Tôi muốn bảo vệ nhu cầu an toàn về thể chất của bạn,
 
 `bb({eyes:"sad_d"})`
 
-b: But the *whole world* seems so dangerous. So full of tragedy and evil.
+b: Nhưng *toàn bộ thế giới* có vẻ rất nguy hiểm. Đầy rẫy bi kịch và cái ác.
 
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Tôi không biết nữa, hơi đủ về việc *tôi* chọn điều gì để nói tiếp theo. *Bạn* sẽ nói gì, con người?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Một lần nữa, quay về bạn, con người. Bạn nghĩ sao?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Còn suy nghĩ gì nữa không, con người?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[You're right. So let's protect ourselves.](#act4_harm_skills)
+[Bạn nói đúng. Hãy cùng tự vệ cho chúng ta.](#act4_harm_skills)
 
-[Let's expose ourselves to *more* danger.](#act4_harm_exposure)
+[Hãy tiếp xúc với *nhiều* nguy hiểm hơn.](#act4_harm_exposure)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "physical safety";`
+[Cảm ơn bạn.](#act4_thanks) `_.thanks_for = "an toàn về mặt thể chất";`
 
 # act4_harm_skills
 
 `bb({eyes:"look_down", body:"paw"})`
 
-b: But... how? I have fangs and claws, but I'm just a metaphor.
+b: Nhưng... bằng cách nào? Tôi có nanh và móng vuốt, nhưng tôi chỉ là ẩn dụ thôi.
 
 ```
 bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: We could learn self-defense? Join a community that protects each other? Improve our general health & personal boundaries?
+h: Chúng ta có thể học cách tự vệ? Tham gia một cộng đồng bảo vệ lẫn nhau? Cải thiện sức khỏe tổng quát và ranh giới cá nhân?
 
 ```
 bb({ eyes:"annoyed_r" });
 hong({ body:"normal", eyes:"normal" });
 ```
 
-b: Maybe, but...
+b: Có thể, nhưng...
 
-[Where do we even start?](#act4_harm_skills_start)
+[Chúng ta nên bắt đầu từ đâu?](#act4_harm_skills_start)
 
-[What if they still don't work?](#act4_harm_skills_work)
+[Rủi chúng vẫn không hoạt động thì sao?](#act4_harm_skills_work)
 
-[What if we go overboard on "safety"?](#act4_harm_skills_overboard)
+[Rủi chúng ta quá chú trọng vào "an toàn" thì sao?](#act4_harm_skills_overboard)
 
 # act4_harm_skills_start
 
 `bb({ eyes:"sad_d" })`
 
-b: There's so much to do, so much we need to fix about ourselves. What do we even *begin* with?
+b: Có quá nhiều việc phải làm, quá nhiều thứ chúng ta cần phải sửa đổi về bản thân mình. Chúng ta thậm chí *bắt đầu* từ đâu?
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
-h: We're beginning right now.
+h: Chúng ta đang bắt đầu ngay bây giờ.
 
 `bb({ eyes:"normal", mouth:"narrow" })`
 
-b: Eh?
+b: Ể?
 
 ```
 bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: We're practicing good communication right now. Which will help us detect danger better, with fewer false positives,
+h: Chúng ta đang thực hành giao tiếp tốt ngay bây giờ. Điều này sẽ giúp chúng mình phát hiện nguy hiểm tốt hơn, với ít cảnh báo sai hơn,
 
 `hong({ eyes:"surprise" });`
 
-h: And *that* will help protect us from harm!
+h: Và *điều đó* sẽ giúp bảo vệ chúng ta khỏi nguy hiểm!
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Therefore: this *is* self-defense training.
+h: Do đó: đây *là* luyện tập cho việc tự vệ.
 
 `bb({ eyes:"normal_r" })`
 
-b: Huh. I was expecting more of this:
+b: Ờ. Tôi vừa mong đợi nhiều hơn của cái này á:
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -566,26 +566,26 @@ sfx("hiya");
 
 `bb({ eyes:"normal" });`
 
-h: True, there's no way to 100% protect ourselves...
+h: Đúng là không có cách nào có thể bảo vệ chúng ta 100%...
 
 `hong({ body:"one_up" });`
 
-h: But even a 1% improvement is still worth something, right?
+h: Nhưng ngay cả sự cải thiện chỉ 1% vẫn có giá trị, phải không?
 
 ```
 bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: You're seeing the glass as not 99% empty, but 1% full?
+b: Bạn thấy cái ly không phải rỗng 99%, mà là đầy 1%?
 
 `bb({ eyes:"normal" });`
 
-h: Which is still worth something if you're stranded in the desert.
+h: Vẫn có giá trị nếu bạn bị mắc kẹt trong sa mạc.
 
 `bb({ eyes:"closed" });`
 
-b: Well. Bottoms up, then.
+b: Được thôi. Nâng ly nào.
 
 (#act4_something_else)
 
@@ -593,26 +593,26 @@ b: Well. Bottoms up, then.
 
 `bb({ body:"chest", eyes:"annoyed" })`
 
-b: I mean, the whole reason you ignored my warnings was because *I* went overboard with safety! 
+b: Ý tôi là, lý do duy nhất khiến bạn bỏ qua lời cảnh báo của tôi là vì *tôi* đã quá chú trọng vấn đề an toàn!
 
 `bb({ body:"normal", eyes:"normal" })`
 
-h: Naw, you're right. We would want to do safety in moderation. Everything in moderation.
+h: Không, bạn nói đúng. Chúng ta muốn thực hiện an toàn ở mức độ vừa phải. Mọi thứ đều ở mức độ vừa phải.
 
 `bb({ eyes:"suspect" })`
 
-b: Sorry, *EVERYTHING* in moderation?
+b: Xin lỗi, *MỌI THỨ* đều ở mức độ vừa phải?
 
 `hong({ eyes:"annoyed" })`
 
-h: *A moderate number of things* in moderation.
+h: *Một lượng vừa phải các thứ* ở mức độ vừa phải.
 
 ```
 bb({ eyes:"closed" });
 hong({ eyes:"normal" });
 ```
 
-b: Thank you for making your statements recursively self-consistent.
+b: Cảm ơn bạn đã đưa ra những tuyên bố nhất quán một cách đệ quy.
 
 (#act4_something_else)
 
@@ -621,45 +621,45 @@ b: Thank you for making your statements recursively self-consistent.
 
 `bb({ mouth:"scream_talk", eyes:"scream", MOUTH_LOCK:true });`
 
-b: *WHAT*
+b: *CÁI GÌ*
 
 ```
 bb({ mouth:"narrow", eyes:"suspect" });
 hong({ body:"one_up" });
 ```
 
-h: I mean, let's say a dog is scared of thunder.
+h: Ý tôi là, giả sử một con chó sợ sấm sét.
 
 `hong({ body:"hands_1" });`
 
-h: One trick trainers use is to play a recording of thunder at a low volume, then give the dog a treat for staying calm.
+h: Một mẹo mà người huấn luyện sử dụng là phát một bản ghi âm tiếng sấm ở mức âm lượng thấp, sau đó thưởng cho chó vì đã giữ được bình tĩnh.
 
 `hong({ body:"hands_2" });`
 
-h: Over several days, the trainer raises the volume bit by bit, until the dog has overcome their fear of thunder.
+h: Trong nhiều ngày, người huấn luyện sẽ tăng dần âm lượng cho đến khi chú chó vượt qua được nỗi sợ sấm sét.
 
 ```
 hong({ body:"normal", eyes:"surprise" });
 bb({ mouth:"normal", eyes:"normal" });
 ```
 
-h: It's called exposure therapy!
+h: Nó được gọi là liệu pháp tiếp xúc!
 
 `hong({ body:"point", eyes:"normal" });`
 
-h: Since you're a dog, it should work for you too, right? All mammals have the same fight-or-flight response.
+h: Vì bạn là một chú chó, nên điều này cũng có tác dụng với bạn, đúng không? Tất cả các loài động vật có vú đều có phản ứng chiến đấu hoặc bỏ chạy giống nhau.
 
 `hong({ body:"normal" });`
 
-[What if we desensitize *too* much?](#act4_harm_exposure_overboard)
+[Nếu chúng ta vô cảm *quá* thì sao?](#act4_harm_exposure_overboard)
 
-[What if we're exposed to *real* danger?](#act4_harm_exposure_hurt)
+[Nếu chúng ta tiếp xúc với nguy hiểm *thực sự* thì sao?](#act4_harm_exposure_hurt)
 
-[I'm a wolf, not a dog.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
+[Tôi là sói, không phải chó.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
 
 # act4_harm_exposure_dog
 
-h: And I'll show you kindness and patience 'til you're domesticated into a cute lil' puppy.
+h: Và tôi sẽ cho bạn thấy lòng tốt và sự kiên nhẫn cho đến khi bạn được thuần hóa thành một chú cún con dễ thương.
 
 `bb({ MOUTH_LOCK:true })`
 
@@ -667,7 +667,7 @@ b: ...
 
 `bb({ eyes:"sad", mouth:"smile" })`
 
-b: D'aw.
+b: Ỏ.
 
 (#act4_something_else)
 
@@ -675,35 +675,35 @@ b: D'aw.
 
 `bb({ eyes:"annoyed" })`
 
-b: We *just* saw what happens if you shut down your fear – you put yourself in *actually* dangerous situations.
+b: Chúng ta *vừa* thấy điều gì xảy ra nếu bạn dập tắt nỗi sợ hãi của mình – bạn tự đưa mình vào những tình huống *thực sự* nguy hiểm.
 
 `bb({ eyes:"angry_r", body:"one_up" })`
 
-b: Besides, won't *too* much desensitization turn us into psychopaths?
+b: Hơn nữa, liệu việc mất cảm giác *quá* có biến chúng ta thành những kẻ tâm thần không?
 
 `bb({ mouth:"scream", eyes:"scream", body:"two_up" })`
 
-b: Soon we'll give ourselves treats while watching snuff murder porn!
+b: Chẳng mấy chốc chúng ta sẽ tự thưởng cho mình khi xem phim khiêu dâm giết người bằng thuốc hít!
 
 `hong({ eyes:"annoyed" })`
 
-h: I... think there's a line between that and the thunder.
+h: Mình... nghĩ rằng có một ranh giới giữa điều đó và tiếng sấm.
 
 `bb({ body:"normal", mouth:"normal", eyes:"suspect" })`
 
-b: But exactly *where*, human? *Where?!*
+b: Nhưng chính xác *ở đâu*, con người? *Ở đâu?!*
 
 `hong({ eyes:"surprise", body:"one_up" })`
 
-h: I don't know. But *you* can help me!
+h: Mình không biết. Nhưng *bạn* có thể giúp mình!
 
 `hong({ eyes:"normal", body:"normal" })`
 
-h: Working and negotiating with you, we'll draw that line.
+h: Làm việc và thương lượng với bạn, chúng ta sẽ tạo ranh giới đó.
 
 `bb({ body:"paw", mouth:"narrow", eyes:"closed" })`
 
-b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
+b: Được. Nhưng tôi không có ngón tay cái nào đối diện, vì vậy bạn sẽ vẽ nó.
 
 (#act4_something_else)
 
@@ -712,11 +712,11 @@ b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
 `bb({ body:"two_up", eyes:"angry_r" })`
 
 {{if _.INJURED}}
-b: For example: we jumped off a freaking *roof!*
+b: Thí dụ: chúng ta đã nhảy khỏi một cái *mái nhà*!
 {{/if}}
 
 {{if !_.INJURED}}
-b: For example: we almost jumped off a freaking *roof!*
+b: Thí dụ: chúng ta đã suýt nhảy khỏi một cái *mái nhà*!
 {{/if}}
 
 ```
@@ -724,17 +724,17 @@ hong({ eyes:"annoyed" });
 bb({ body:"normal", eyes:"annoyed" });
 ```
 
-h: Nah you're right. One *can* go too far.
+h: Mà bạn nói đúng. Người ta *có thể* đi quá xa.
 
 `hong({ eyes:"normal" });`
 
-h: But that's why, if we do exposure therapy, we'll start small, and make small steps upward.
+h: Nhưng đó là lý do tại sao, nếu chúng ta thực hiện liệu pháp tiếp xúc, chúng ta sẽ bắt đầu từ những bước nhỏ và tiến dần lên.
 
-h: Just before we hit *actual* danger, we stop.
+h: Ngay trước khi chúng ta gặp phải nguy hiểm *thực sự*, chúng ta dừng lại.
 
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
-b: Yeah I draw the line between hearing loud thunder, and standing in a storm with a tall pointy hat.
+b: Vâng, tôi phân biệt được giữa việc nghe thấy tiếng sấm lớn, và việc đứng trong cơn bão với chiếc mũ nhọn cao.
 
 (#act4_something_else)
 
@@ -762,11 +762,11 @@ b: ...
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait, no arguments for or against what I'm feeling? Just... "thank you"?
+b: Khoan đã, không có lý lẽ nào ủng hộ hay phản đối những gì tôi đang cảm thấy sao? Chỉ là... "cảm ơn" thôi sao?
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
-h: Yeah! Thank you for showing your concern for my {{_.thanks_for}}.
+h: Đúng vậy! Cảm ơn bạn đã quan tâm đến sự {{_.thanks_for}} của tôi.
 
 ```
 bb({ eyes:"closed_annoyed", MOUTH_LOCK:true });
@@ -775,67 +775,67 @@ hong({ eyes:"normal", body:"normal" });
 
 b: ...
 
-h: You okay?
+h: Bạn ổn chứ?
 
 `bb({ eyes:"super_sad", mouth:"narrow" });`
 
-b: You've never said *thank you* to me before.
+b: Bạn chưa bao giờ nói *cảm ơn* với tôi trước đây.
 
 `hong({ mouth:"smile" });`
 
-h: Aw you big fuzzy-wuzzy panic-wolf.
+h: Ôi, con sói hoảng loạn lông lá to đùng kia.
 
 (#act4_something_else)
 
 # act4_thanks_2
 
-h: Even if you over-react, I appreciate you looking out for my {{_.thanks_for}}.
+h: Ngay cả khi bạn phản ứng thái quá, tôi vẫn đánh giá cao việc bạn quan tâm đến sự {{_.thanks_for}} của tôi.
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait... you're not just repeating "thank you" to avoid actually talking about these fears, are you?
+b: Đợi đã... bạn không chỉ lặp lại "cảm ơn" để tránh thực sự nói về những nỗi sợ này, phải không?
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"annoyed", body:"chin" });
 ```
 
-h: Well, stuff's complicated, and I don't always have answers ready.
+h: Vâng, mọi thứ phức tạp, và tôi không phải lúc nào cũng có sẵn câu trả lời.
 
 `hong({ eyes:"annoyed_l", body:"one_up" })`
 
-h: It's not like life gives you a list of 3 pre-made dialogue responses.
+h: Cuộc sống không đưa cho bạn danh sách gồm 3 câu trả lời đối thoại được tạo sẵn đâu.
 
 `hong({ eyes:"normal", mouth:"smile", body:"normal" })`
 
-h: But for now, I can at least say thanks.
+h: Nhưng bây giờ, ít nhất tôi có thể nói lời cảm ơn.
 
-b: Well, thank you too, for listening to me patiently.
+b: Ừ, cảm ơn bạn, vì đã kiên nhẫn lắng nghe tôi.
 
 `bb({ eyes:"closed" });`
 
-b: You small hairless flesh-mammal.
+b: Động vật có vú nhỏ nhắn không lông.
 
 (#act4_something_else)
 
 # act4_thanks_3
 
-h: Even if your yapping scares me, you're simply trying to protect my {{_.thanks_for}}.
+h: Kể cả khi tiếng sủa của anh làm tôi sợ, anh chỉ đang cố bảo vệ sự {{_.thanks_for}} của tôi thôi.
 
 `bb({ eyes:"smile_r" });`
 
-b: Okay, if you keep flattering me like this, the internet's gonna get some weird ideas about us.
+b: Được thôi, nếu anh cứ nịnh tôi thế này, internet sẽ có những ý tưởng kỳ lạ về chúng ta mất.
 
 ```
 bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: C'mon, I'm just a vulnerable college-age kid and you're a big, scary wolf. What's the worst that cou--
+h: Thôi nào, tôi chỉ là một đứa trẻ tuổi đại học dễ bị tổn thương và anh là một con sói to lớn, đáng sợ. Điều tồi tệ nhất mà anh có thể--
 
 `hong({ eyes:"normal", body:"point" });`
 
-h: Actually, do not answer that.
+h: Thực ra, đừng trả lời câu hỏi đó.
 
 (#act4_something_else)
 
@@ -851,33 +851,33 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"sad_d" });`
 
-b: I want to make sure you fulfil that deep, human need to belong...
+b: Tôi muốn đảm bảo rằng bạn đáp ứng được nhu cầu sâu sắc của con người là được hòa nhập...
 
 `bb({ eyes:"sad_u" });`
 
-b: But I worry that if anyone ever knew us – the *real* us – we'd scare them all away.
+b: Nhưng tôi lo rằng nếu bất kỳ ai biết chúng ta – con người *thực* của chúng ta – thì chúng ta sẽ dọa họ bỏ chạy mất.
 
 `bb({ eyes:"sad" });`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Tôi không biết nữa, hơi đủ về việc *tôi* chọn điều gì để nói tiếp theo. *Bạn* sẽ nói gì, con người?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Một lần nữa, quay về bạn, con người. Bạn nghĩ sao?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Còn suy nghĩ gì nữa không, con người?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[I agree: let's work on our social life.](#act4_alone_skills)
+[Mình đồng ý: hãy cải thiện đời sống xã hội của chúng ta.](#act4_alone_skills)
 
-[I think people like us. Let's find out?](#act4_alone_experiment)
+[Mình nghĩ mọi người thích chúng ta. Cùng tìm hiểu nhé?](#act4_alone_experiment)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "social belonging";`
+[Cảm ơn bạn.](#act4_thanks) `_.thanks_for = "thuộc về cộng đồng";`
 
 # act4_alone_skills
 
@@ -886,60 +886,60 @@ bb({ eyes:"normal" });
 hong({ body:"chin" });
 ```
 
-h: We could practice skills like asking questions, listening and empathizing, being open and vulnerable, etc?
+h: Chúng ta có thể rèn luyện các kỹ năng như đặt câu hỏi, lắng nghe và đồng cảm, cởi mở và dễ bị tổn thương, vân vân... không?
 
 `hong({ eyes:"normal_l" });`
 
-h: Or make better social habits, like scheduling time with friends or regularly going to meetups?
+h: Hoặc tạo thói quen giao tiếp xã hội tốt hơn, như lên lịch thời gian với bạn bè hoặc thường xuyên đi gặp gỡ?
 
 `hong({ body:"one_up" });`
 
-h: Could also learn to get more comfortable with rejection.
+h: Cũng có thể học cách thoải mái hơn khi bị từ chối.
 
 `hong({ eyes:"normal" });`
 
-h: Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
+h: Hoặc học cách biết khi nào mọi người *không* từ chối chúng ta, họ chỉ mệt mỏi hoặc có Khuôn mặt ^Thốn^ Nghỉ ngơi.
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed_r" });
 ```
 
-b: That's a lot of options. But, about "learning social skills"...
+b: Có rất nhiều lựa chọn. Nhưng, về "học các kỹ năng xã hội"...
 
-[Isn't that *manipulative?*](#act4_alone_skills_manipulative)
+[Điều đó không phải là *thao túng sao?*](#act4_alone_skills_manipulative)
 
-[Won't that make us *easier to manipulate?*](#act4_alone_skills_manipulated)
+[Điều đó không khiến chúng ta *dễ bị thao túng hơn sao?*](#act4_alone_skills_manipulated)
 
-[What if we still fail?](#act4_alone_skills_fail)
+[Nếu chúng ta vẫn thất bại thì sao?](#act4_alone_skills_fail)
 
 # act4_alone_skills_manipulative
 
 `bb({ eyes:"suspect" });`
 
-b: Aren't serial killers who can read their victims' emotions great at "empathy"?
+b: Không phải những kẻ giết người hàng loạt có thể đọc được cảm xúc của nạn nhân là những kẻ rất giỏi "đồng cảm" sao?
 
 `bb({ eyes:"annoyed" });`
 
-b: Didn't Charles Manson win friends and influence people?
+b: Không phải Charles Manson đã có được bạn bè và ảnh hưởng đến mọi người sao?
 
 `hong({ eyes:"annoyed", body:"chin" });`
 
-h: No, you're right.
+h: Không, bạn nói đúng.
 
-h: "Social skills" mean nothing if we don't genuinely care *for* people.
+h: "Kỹ năng xã hội" chẳng có ý nghĩa gì nếu chúng ta không thực sự quan tâm *đến* mọi người.
 
 `hong({ body:"normal" });`
 
-h: Basically, just don't be a ^dick^.
+h: Về cơ bản, đừng trở thành ^một tên khốn^.
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: That's a motivational poster caption right there.
+b: Cái đó nên trở thành chữ đề trên áp phích động viên.
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
-h: “Don't Be A ^Dick^™”
+h: Đừng Trở Thành ^Một Tên Khốn^™
 
 (#act4_something_else)
 
@@ -947,29 +947,29 @@ h: “Don't Be A ^Dick^™”
 
 `bb({ eyes:"angry" })`
 
-b: We'll become a Welcome doormat, saying Please and Thank You as people wipe their feet on us!
+b: Chúng ta sẽ trở thành tấm thảm chùi chân chào đón, nói Làm ơn và Không có gì khi mọi người lau chân lên chúng ta!
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
-b: We'll kiss so much butt, it'll look like we're wearing brown lipstick!
+b: Chúng ta sẽ hôn mông người khác nhiều đến nỗi trông như thể chúng ta đang tô son môi màu nâu vậy!
 
 ```
 bb({ mouth:"normal", eyes:"normal" });
 hong( body:"chin" });
 ```
 
-h: Nah, you're right. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
+h:  Không, bạn nói đúng. "Kỹ năng xã hội" không chỉ là làm hài lòng người khác, mà còn phải là đặt ra *ranh giới*.
 
 `hong( body:"one_up" });`
 
-h: We can't invite others into our home, if we have no walls to hold up our home.
+h: Chúng ta không thể mời người khác vào nhà mình, nếu chúng ta không có bức tường nào để chống đỡ ngôi nhà của mình.
 
 ```
 hong( eyes:"angry", mouth:"narrow" });
 bb( eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Also... re: that lipstick mental image... *ew??*
+h: Mà... re: hình ảnh tưởng tượng về màu son đó... *eo ôi??*
 
 (#act4_something_else)
 
@@ -977,26 +977,26 @@ h: Also... re: that lipstick mental image... *ew??*
 
 `bb({ eyes:"annoyed" });`
 
-h: We might fail. Actually, we *will* fail.
+h: Chúng ta có thể thất bại. Thực ra, chúng ta *sẽ* thất bại.
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"surprise", body:"shrug" });
 ```
 
-h: And that's fine! Failing is how anyone learns anything new at first!
+h: Và điều đó ổn thôi! Thất bại là cách bất kỳ ai cũng học được điều gì đó mới mẻ ngay từ đầu!
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: So let's fail forward together, yeah?
+h: Vậy thì hãy cùng nhau thất bại, được chứ?
 
 `bb({ eyes:"normal_r" });`
 
-b: Sure, I guess... worst-case scenario, we can just skip town and get a new identity.
+b: Chắc chắn rồi... trường hợp xấu nhất, chúng ta có thể bỏ trốn và có một danh tính mới.
 
 `bb({ eyes:"normal" });`
 
-h: Yeah I think that only costs two bitcoins these days.
+h: Ừ mình nghĩ rằng ngày nay nó cũng chỉ tốn hai bitcoin.
 
 (#act4_something_else)
 
@@ -1007,33 +1007,33 @@ hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: We could try some experiments!
+h: Chúng ta có thể thử một số thí nghiệm!
 
 `hong({ body:"chin" });`
 
-h: We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
+h: Chúng ta có thể ping một người bạn để đi chơi, kết nối lại với một người bạn cũ, hoặc thậm chí chỉ trò chuyện với một nhân viên pha chế.
 
 `hong({ body:"normal" });`
 
-h: I think we may find we're more likeable than we suspect.
+h: Mình nghĩ rằng chúng ta có thể thấy rằng chúng ta dễ mến hơn chúng ta nghĩ.
 
 `bb({ eyes:"annoyed" });`
 
-[What if these are small, cheap "wins"?](#act4_alone_experiment_cheap)
+[Rủi đâu là những "chiến thắng" nhỏ, rẻ mạt thì sao?](#act4_alone_experiment_cheap)
 
-[What if this is a burden to others?](#act4_alone_experiment_burden)
+[Rủi đâu đây là gánh nặng cho người khác thì sao?](#act4_alone_experiment_burden)
 
-[But small talk isn't the *real* us!](#act4_alone_experiment_real_us)
+[Nhưng nói chuyện phiếm không phải là con người *thực* của chúng ta!](#act4_alone_experiment_real_us)
 
 # act4_alone_experiment_real_us
 
 `bb({ eyes:"sad" });`
 
-b: If we put on a shallow smile, we'll never really connect with anyone,
+b: Nếu chúng ta nở một nụ cười hời hợt, chúng ta sẽ không bao giờ thực sự kết nối với bất kỳ ai,
 
 `bb({ eyes:"super_sad" });`
 
-b: *But* if we open up, other people will see all our messed-up insides!
+b: *Nhưng* nếu chúng ta mở lòng, những người khác sẽ thấy tất cả những thứ bên trong hỗn loạn của chúng ta!
 
 `hong({body:"chin", mouth:"narrow", MOUTH_LOCK:true})`
 
@@ -1044,64 +1044,64 @@ hong({body:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: Roll over.
+h: Lăn người ra.
 
-b: What.
+b: Cái gì cơ.
 
 `hong({body:"hands_1"})`
 
-h: When dogs want to show love and trust, they make themselves vulnerable by exposing their belly.
+h: Khi chó muốn thể hiện tình yêu và lòng tin, chúng sẽ khiến bản thân dễ bị tổn thương bằng cách để lộ bụng.
 
 `hong({body:"one_up"})`
 
-h: Maybe we're not *yet* secure enough to be too vulnerable, but with enough training,
+h: Có thể chúng ta *chưa* đủ an toàn để trở nên quá dễ bị tổn thương, nhưng với đủ sự huấn luyện,
 
 `hong({body:"normal", eyes:"surprise"})`
 
-h: One day we can show people the real us – all messed-up, all human.
+h: Một ngày nào đó chúng ta có thể cho mọi người thấy con người thật của mình – hoàn toàn lộn xộn, hoàn toàn là con người.
 
 ```
 hong({eyes:"normal"});
 bb({ eyes:"super_sad", mouth:"smile", body:"chest" });
 ```
 
-b: I'll roll over if you give me a treat.
+b: Tôi sẽ lăn qua nếu bạn cho tôi một miếng thức ăn.
 
 `bb({ eyes:"normal", mouth:"normal" });`
 
-h: No.
+h: Không.
 
 (#act4_something_else)
 
 
 # act4_alone_experiment_cheap
 
-b: Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
+b: Nói "xin chào" với nhân viên pha chế không hẳn là màn trình diễn giành huy chương vàng trong Thế vận hội Bươm Bướm Xã Hội.
 
 ```
 hong({ body:"point", eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: It is for *us!*
+h: Nó là dành cho *chúng ta!*
 
 `hong({ body:"one_up", eyes:"annoyed" });`
 
-h: In the social arena, we're not even featherweight class, we're like... quark-weight.
+h: Trong đấu trường xã hội, chúng ta thậm chí không phải là hạng lông, chúng ta giống như... hạng quark.
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: If we have to start with small, cheap wins, so be it. Gotta climb the 1st step before the 1000th step.
+h: Nếu chúng ta phải bắt đầu bằng những chiến thắng nhỏ và rẻ tiền, thì cứ thế đi. Phải leo lên bậc thang đầu tiên trước bậc thang thứ 1000.
 
-b: Yeah! Maybe after saying "Hi", we can advance to saying...
+b: Đúng vậy! Có lẽ sau khi nói "Xin chào", chúng ta có thể tiến tới nói...
 
 `bb({ body:"two_up", mouth:"smile", eyes:"smile_u" });`
 
-b: *"How are you?"*
+b: *"Bạn khỏe không?"*
 
 `hong({ body:"shrug", mouth:"smile", eyes:"surprise_l" });`
 
-h: *"Not much!"*
+h: *"Không có gì nhiều!"*
 
 (#act4_something_else)
 
@@ -1109,29 +1109,29 @@ h: *"Not much!"*
 
 `bb({ eyes:"suspect_r" })`
 
-b: Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
+b: Có lẽ nhân viên pha chế chỉ muốn pha cà phê thôi, chứ không muốn là một *thí nghiệm* để xem kỹ năng giao tiếp của chúng ta có tệ không.
 
 `bb({ eyes:"annoyed" })`
 
-h: Well, if it turns out we *are* being a burden...
+h: Ừ thì, nếu hóa ra chúng ta *là* gánh nặng...
 
 ```
 hong({ eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: That's good to know, too!
+h: Biết thế cũng tốt!
 
 `hong({ eyes:"normal" });`
 
-h: We can then learn how to pro-actively ask people what they're comfortable with, to know and respect others' boundaries.
+h: Sau đó, chúng ta có thể học cách chủ động hỏi mọi người xem họ cảm thấy thoải mái với điều gì, để biết và tôn trọng ranh giới của người khác.
 
 ```
 hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Y'know, all that "inter-personal skills" ^crap^ we see in counselor brochures.
+h: Bạn biết đấy, tất cả những "kỹ năng giao tiếp" ^rác rưởi^ mà chúng ta thấy trong các tờ rơi tư vấn.
 
 (#act4_something_else)
 
@@ -1146,43 +1146,43 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"annoyed_r" })`
 
-b: I want to defend your moral needs, that drive to become a better person,
+b: Tôi muốn bảo vệ nhu cầu đạo đức của bạn, động lực để trở thành một người tốt hơn,
 
 `bb({ eyes:"sad_d" })`
 
-b: But it just feels like deep down, we're so fundamentally... broken.
+b: Nhưng sâu thẳm bên trong, chúng ta cảm thấy rằng về cơ bản... đã tan vỡ.
 
 `bb({ body:"two_up", eyes:"angry" })`
 
 {{if _.INJURED}}
-b: And don't tell me we're *not* messed up. We jumped off a *roof*.
+b: Và đừng nói với tôi rằng chúng ta *không* bị hỗn loạn. Chúng ta đã nhảy từ một cái *mái nhà*.
 {{/if}}
 
 {{if !_.INJURED}}
-b: And don't tell me we're *not* messed up. We almost jumped off a *roof*.
+b: Và đừng nói với tôi rằng chúng ta *không* bị hỗn loạn. Chúng ta đã suýt nhảy từ một cái *mái nhà*.
 {{/if}}
 
 `bb({ body:"normal", eyes:"sad" })`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Tôi không biết nữa, hơi đủ về việc *tôi* chọn điều gì để nói tiếp theo. *Bạn* sẽ nói gì, con người?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Một lần nữa, quay về bạn, con người. Bạn nghĩ sao?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Còn suy nghĩ gì nữa không, con người?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[So we're broken. Let's fix us.](#act4_bad_fix)
+[Vậy chúng ta tan vỡ rồi. Cùng sửa chúng ta nhé.](#act4_bad_fix)
 
-[So we're broken. Let's accept it.](#act4_bad_accept)
+[Vậy chúng ta tan vỡ rồi. Cùng chấp nhận nó nhé.](#act4_bad_accept)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "moral well-being";`
+[Cảm ơn bạn.](#act4_thanks) `_.thanks_for = "ổn định về đạo đức";`
 
 # act4_bad_fix
 
@@ -1191,48 +1191,48 @@ bb({eyes:"normal"});
 hong({body:"chin"});
 ```
 
-h: We could slowly build better habits, get our life more in line with what we value,
+h: Chúng ta có thể dần dần xây dựng những thói quen tốt hơn, đưa cuộc sống của mình phù hợp hơn với những gì chúng ta coi trọng,
 
 `hong({body:"one_up"});`
 
-h: And if needed, we could get professional help – a therapist or counsellor.
+h: Và nếu cần, chúng ta có thể tìm kiếm sự giúp đỡ chuyên nghiệp – một nhà trị liệu hoặc cố vấn.
 
 `hong({body:"normal"});`
 
-h: There's ways to fix us.
+h: Có nhiều cách để sửa chữa chúng ta.
 
-[What if we can't fix it all?](#act4_bad_fix_cant)
+[Rủi chúng ta không thể sửa chữa tất cả thì sao?](#act4_bad_fix_cant)
 
-[What if we fix *too* much?](#act4_bad_fix_too_much)
+[Rủi chúng ta sửa chữa *quá* nhiều thì sao?](#act4_bad_fix_too_much)
 
-[We can't afford professional help.](#act4_bad_fix_afford)
+[Chúng ta không đủ khả năng thuê chuyên gia.](#act4_bad_fix_afford)
 
 # act4_bad_fix_cant
 
 `hong({eyes:"annoyed"});`
 
-h: Nah, I guess you're right.
+h: Không, tôi đoán là bạn đúng.
 
-h: We can't fix it all.
+h: Chúng ta không thể sửa chữa tất cả.
 
 `bb({mouth:"scream", eyes:"scream_sad"});`
 
-b: Ahhh I knew it we'll always be broken!
+b: Àaaaa tôi biết là chúng ta sẽ luôn tan vỡ!
 
 `hong({eyes:"surprise"});`
 
-h: But we can at least be *less* broken.
+h: Nhưng ít nhất chúng ta có thể *ít* tan vỡ hơn.
 
 ```
 bb({mouth:"normal", eyes:"annoyed"});
 hong({eyes:"sad", mouth:"smile"});
 ```
 
-h: Scars heal with time, but they never go away. And that's okay.
+h: Sẹo sẽ lành theo thời gian, nhưng chúng không bao giờ biến mất. Và điều đó không sao cả.
 
 `bb({eyes:"annoyed_r"});`
 
-b: I guess. Besides,
+b: Tôi đoán vậy. Bên cạnh đó,
 
 ```
 Game.FORCE_TEXT_Y = 460;
@@ -1240,7 +1240,7 @@ Game.clearText();
 publish("act4-sexy", [true]);
 ```
 
-b: Scars are *sexy.*
+b: Các vết sẹo rất *quyến rũ.*
 
 ```
 Game.FORCE_TEXT_Y = -1;
@@ -1250,7 +1250,7 @@ bb({body:"chest", mouth:"smile_talk", MOUTH_LOCK:true, eyes:"sexy"}, 0);
 hong({eyes:"normal", mouth:"normal"}, 0);
 ```
 
-h: Please do not do that.
+h: Xin đừng làm thế.
 
 (#act4_something_else)
 
@@ -1258,35 +1258,35 @@ h: Please do not do that.
 
 `bb({ eyes:"angry_d" })`
 
-b: This feels sick to admit, but... some part of me *wants* to have this disorder.
+b: Thật buồn cười khi phải thừa nhận điều này, nhưng... một phần nào đó trong tôi *muốn* mắc chứng rối loạn này.
 
 `bb({ eyes:"angry" })`
 
-b: I mean, without it, won't we be *boring?*
+b: Ý tôi là, nếu không có nó, chúng ta sẽ *nhàm chán* phải không?
 
 `bb({ eyes:"sad_r", body:"one_up" })`
 
-b: Without the disorder, won't our art become stale and bland?
+b: Nếu không có chứng rối loạn này, nghệ thuật của chúng ta sẽ trở nên cũ kỹ và nhạt nhẽo phải không?
 
 `bb({ eyes:"sad_u", body:"two_up" })`
 
-b: Without the disorder, won't we be unable to connect with our friends who have the disorder?
+b: Nếu không có chứng rối loạn này, chúng ta sẽ không thể kết nối với những người bạn mắc chứng rối loạn này phải không?
 
 `bb({ eyes:"sad", body:"chest" })`
 
-b: If we're ever content with life, won't we stop driving ourselves to do great things?
+b: Nếu chúng ta hài lòng với cuộc sống, chúng ta sẽ ngừng thúc đẩy bản thân làm những điều tuyệt vời sao?
 
 `hong({ MOUTH_LOCK:true })`
 
 h: ...
 
-h: If we even fear... "running out of fears"...
+h: Nếu chúng ta thậm chí còn sợ... "hết sợ"...
 
-h: I don't think we're gonna run out of fears.
+h: Tôi không nghĩ chúng ta sẽ hết sợ.
 
 `bb({ eyes:"smile_u", body:"normal", mouth:"smile" })`
 
-b: Oh, yeah! Whew! What a relief!
+b: Ồ, tuyệt! Phù! Thật nhẹ nhõm!
 
 (#act4_something_else)
 
@@ -1294,53 +1294,53 @@ b: Oh, yeah! Whew! What a relief!
 
 `bb({ body:"one_up", eyes:"sexy", mouth:"normal" })`
 
-b: "Doc, I'm anxious that I'm paying $100/hr just to hear you ask *how does that make you feel?*"
+b: "Bác sĩ, tôi lo lắng rằng tôi phải trả 100 đô-la/giờ chỉ để nghe bác sĩ hỏi *điều đó khiến bác cảm thấy thế nào?*"
 
 `bb({ body:"paw", eyes:"closed", mouth:"narrow" })`
 
-b: "Mm-hmm. And how does that make you feel?"
+b: "Ừm hứm. Và điều đó khiến bạn cảm thấy thế nào?"
 
 ```
 bb({ body:"normal", eyes:"normal", mouth:"normal" });
 hong({ eyes:"sad" });
 ```
 
-h: Nah, that's a totally reasonable worry.
+h: Không, đó là một nỗi lo hoàn toàn hợp lý.
 
 `hong({ eyes:"annoyed", mouth:"sad" });`
 
-h: And it genuinely sucks that mental healthcare isn't affordable for lots of folks.
+h: Và thật tệ khi dịch vụ chăm sóc sức khỏe  thần không phải là lựa chọn khả thi đối với nhiều người.
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Still, there are some cheap or free options:
+h: Tuy nhiên, vẫn có một số lựa chọn rẻ hoặc miễn phí:
 
 `hong({ body:"chin" })`
 
-h: Support groups, online therapy, student/non-profit health centers...
+h: Nhóm hỗ trợ, liệu pháp trực tuyến, trung tâm y tế dành cho sinh viên/phi lợi nhuận...
 
 `hong({ body:"hands_1" })`
 
-h: Building habits like meditation, sleeping well, chatting regularly with friends, learning new things...
+h: Xây dựng thói quen như thiền định, ngủ ngon, trò chuyện thường xuyên với bạn bè, học hỏi những điều mới...
 
 `hong({ body:"hands_2" })`
 
-h: Going to a library to borrow workbooks for evidence-based psychotherapies...
+h: Đến thư viện để mượn sách bài tập về liệu pháp tâm lý dựa trên bằng chứng...
 
 `hong({ body:"one_up" })`
 
-h: There's a full list of resources at the end of this game!
+h: Có danh sách đầy đủ các nguồn tài nguyên ở cuối trò chơi này!
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed", mouth:"narrow" });
 ```
 
-b: Well *that* fourth wall didn't last long.
+b: Chà, bức tường thứ tư *đó* không tồn tại lâu nhỉ.
 
 `hong({ body:"point" });`
 
-h: Some things are more important than narrative convention. Such as mental health.
+h: Một số thứ quan trọng hơn quy ước tường thuật. Chẳng hạn như sức khỏe  thần.
 
 (#act4_something_else)
 
@@ -1352,48 +1352,48 @@ bb({ eyes:"normal" });
 hong({ eyes:"normal_l", body:"one_up", mouth:"narrow" });
 ```
 
-h: I mean, that's what therapists say right? Accept all your emotions, even the negative ones?
+h: Ý tôi là, đó là những gì các nhà trị liệu nói đúng không? Chấp nhận mọi cảm xúc của bạn, ngay cả những cảm xúc tiêu cực?
 
 ```
 bb({ eyes:"annoyed" });
 hong({ eyes:"normal", body:"normal", mouth:"normal" });
 ```
 
-b: Wait.
+b: Đợi đã.
 
-["Accept" as in *give up*?](#act4_bad_accept_give_up)
+["Chấp nhận" như trong *bỏ cuộc*?](#act4_bad_accept_give_up)
 
-["Accept" as in *approve*?](#act4_bad_accept_approve)
+["Chấp nhận" như trong *đồng ý*?](#act4_bad_accept_approve)
 
-["Accept" as in *take literally*?](#act4_bad_accept_literally)
+["Chấp nhận" như trong *hiểu theo nghĩa đen*?](#act4_bad_accept_literally)
 
 # act4_bad_accept_give_up
 
 `bb({ eyes:"angry", body:"one_up" });`
 
-b: Do you think Martin Luther King would've said, "Shucks we can't sit in the front of the bus, let's just *accept* it?"
+b: Bạn có nghĩ Martin Luther King sẽ nói, "Chết tiệt, chúng ta không thể ngồi ở phía trước xe buýt, chúng ta hãy *chấp nhận* điều đó?"
 
 `bb({ eyes:"angry_r", body:"two_up" });`
 
-b: Why does the Self-Help Industrial Complex think waving the white flag is some *profound wisdom?*
+b: Tại sao Tổ hợp Công nghiệp Tự chăm sóc lại nghĩ rằng vẫy cờ trắng là một *chân lý sâu sắc?*
 
 `bb({ eyes:"annoyed", body:"normal" });`
 
-h: I think therapists mean "accept" bad things as in: acknowledging they exist and are hard to change,
+h: Mình nghĩ các nhà trị liệu muốn nói "chấp nhận" những điều xấu như kiểu: thừa nhận chúng tồn tại và khó thay đổi,
 
-h: But not necessarily giving up a commitment to change.
+h: Nhưng không nhất thiết phải từ bỏ cam kết thay đổi.
 
 `bb({ eyes:"suspect" });`
 
-b: Then therapists should say *acknowledge*, not *accept*.
+b: Vậy thì các nhà trị liệu nên nói *thừa nhận*, không phải *chấp nhận*.
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Yeah come to think of it, "accept" is kinda confusing.
+h: Ừm, nghĩ lại thì "chấp nhận" hơi khó hiểu.
 
 `bb({ eyes:"closed", mouth:"narrow" });`
 
-b: Well, I *acknowledge* that.
+b: Vậy, tôi *thừa nhận* điều đó.
 
 (#act4_something_else)
 
@@ -1401,52 +1401,52 @@ b: Well, I *acknowledge* that.
 
 `bb({ eyes:"angry" });`
 
-b: Like it's *good* that we're broken or something? No!
+b: Như thể là *tốt* khi chúng ta bị tổn thương hay gì đó? Không!
 
 `bb({ eyes:"angry_r", body:"one_up" });`
 
-b: All those dang Hollywood screenwriters who romanticize mental illness are full of crud!
+b: Tất cả những nhà biên kịch Hollywood lãng mạn hóa bệnh tâm thần đều là đồ tồi!
 
 `bb({ eyes:"angry", body:"two_up" });`
 
-b: Having a mental disorder *sucks!* It robs people of *lives!* Why should we "accept" that?!
+b: Mắc chứng rối loạn tâm thần *thật tệ!* Nó cướp đi *cuộc sống của mọi người!* Tại sao chúng ta phải "chấp nhận" điều đó?!
 
 `bb({ body:"normal" });`
 
-h: I think therapists mean "accept" our emotions as in: be patient with them.
+h: Tôi nghĩ các nhà trị liệu muốn nói đến "chấp nhận" cảm xúc của chúng ta theo nghĩa: hãy kiên nhẫn với chúng.
 
 ```
 hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: Like how struggling in quicksand makes you sink faster, and the solution is to patiently lie flat,
+h: Giống như việc vật lộn trong cát lún khiến bạn chìm nhanh hơn, và giải pháp là kiên nhẫn nằm im,
 
 `hong({ eyes:"surprise" });`
 
 {{if _.INJURED}}
-h: Fighting against you, my fear, led me to jump off a roof.
+h: Chống lại bạn, nỗi sợ của tôi, khiến tôi nhảy từ mái nhà xuống.
 {{/if}}
 
 {{if !_.INJURED}}
-h: Fighting against you, my fear, almost led me to jump off a roof.
+h: Chống lại bạn, nỗi sợ của tôi, khiến tôi suýt nhảy từ mái nhà xuống.
 {{/if}}
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: Instead, the solution is to do what we're doing now – not to fight, but to patiently be with each other.
+h: Thay vào đó, giải pháp là làm những gì chúng ta đang làm bây giờ – không phải là chống lại, mà là kiên nhẫn ở bên nhau.
 
 `bb({ eyes:"annoyed" });`
 
-b: Then they should say *that* instead of some problematic word like "accept".
+b: Vậy thì họ nên nói *điều đó* thay vì một từ có vấn đề nào đó như "chấp nhận".
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Yeah come to think of it, "accept" kind of sucks.
+h: Ừ, nghĩ lại thì "chấp nhận" nghe tệ thật.
 
 `bb({ eyes:"closed_annoyed", mouth:"narrow" });`
 
-b: I do not accept "accept".
+b: Tôi không chấp nhận "chấp nhận".
 
 (#act4_something_else)
 
@@ -1454,30 +1454,30 @@ b: I do not accept "accept".
 
 `bb({ eyes:"sad", body:"one_up" });`
 
-b: But we already *know* you shouldn't take me literally!
+b: Nhưng chúng ta đã *biết* là bạn không nên hiểu tôi theo nghĩa đen!
 
 `bb({ eyes:"sad_u", body:"two_up" });`
 
-b: The whole *problem* is that I want to help you, but I suck at using words to do so!
+b: Toàn bộ *vấn đề* là tôi muốn giúp bạn, nhưng tôi lại tệ trong việc sử dụng từ ngữ để làm như vậy!
 
 `bb({ eyes:"sad", body:"normal" });`
 
-h: I think therapists mean "accept" your emotions as in: "don't fight or ignore them."
+h: Tôi nghĩ các nhà trị liệu muốn nói "chấp nhận" cảm xúc của bạn theo nghĩa: "đừng chống lại hoặc phớt lờ chúng".
 
 `hong({ eyes:"surprise", body:"one_up" });`
 
-h: To listen to you, work *with* you, but not take what you say as 100% literal truth.
+h: Để lắng nghe bạn, làm việc *với* bạn, nhưng không coi những gì bạn nói là sự thật 100%.
 
 ```
 hong({ eyes:"normal", body:"normal" });
 bb({ eyes:"annoyed", mouth:"normal" });`
 ```
 
-b: Then therapists should say *that* instead of some vague confusing word like "accept".
+b: Vậy thì các nhà trị liệu nên nói *điều đó* thay vì một từ mơ hồ gây nhầm lẫn nào đó như "chấp nhận".
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: I guess they suck at using words, too.
+h: Mình đoán là họ cũng tệ trong việc sử dụng từ ngữ.
 
 (#act4_something_else)
 
@@ -1492,11 +1492,11 @@ hong({ body:"normal", mouth:"normal", eyes:"normal" });
 ```
 
 {{if _.a4_fears_discussed==1}}
-h: Anyway, anything else you wanna chat about?
+h: Dù sao thì, bạn còn muốn trò chuyện về điều gì nữa không?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-h: So, anything else on your heavy heart?
+h: Vậy, còn điều gì nữa khiến trái tim bạn nặng trĩu không?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
@@ -1504,34 +1504,34 @@ h: So, anything else on your heavy heart?
 {{/if}}
 
 {{if _.a4_talked_about_harm!=true}}
-[I'm scared we'll be harmed.](#act4_harm)
+[Tôi sợ chúng ta sẽ bị tổn thương.](#act4_harm)
 {{/if}}
 
 {{if _.a4_talked_about_alone!=true}}
-[I'm scared we'll be alone.](#act4_alone)
+[Tôi sợ chúng ta sẽ cô đơn.](#act4_alone)
 {{/if}}
 
 {{if _.a4_talked_about_bad!=true}}
-[I'm scared we're bad people.](#act4_bad)
+[Tôi sợ chúng ta là người xấu.](#act4_bad)
 {{/if}}
 
-[Nah, I'm good for now.](#act4c_prelude)
+[Không, tôi ổn rồi.](#act4c_prelude)
 
 # act4_something_else_2
 
-h: Okay, I think we've talked about all our fears now.
+h: Được rồi, mình nghĩ chúng ta đã nói về tất cả nỗi sợ của mình rồi.
 
-b: Yes, there are only three fears.
+b: Ừ, chỉ có ba nỗi sợ.
 
-h: Yup, exactly three.
+h: Ừ, chính xác là ba.
 
-b: Convenient.
+b: Tiện thật.
 
 (#act4c)
 
 # act4c_prelude
 
-h: Good chat, team.
+h: Trò chuyện vui vẻ lắm, cả đội.
 
 (#act4c)
 
@@ -1552,28 +1552,28 @@ h: ...
 
 `bb({eyes:"annoyed_d"})`
 
-b: This isn't some *game*, you know.
+b: Đây không phải là *trò chơi* đâu, bạn biết đấy.
 
 `bb({eyes:"angry_d", body:"one_up"})`
 
-b: Building a healthy relationship with your emotions isn't as simple as clicking buttons on a screen.
+b: Xây dựng mối quan hệ lành mạnh với cảm xúc của bạn không đơn giản chỉ là nhấp vào các nút trên màn hình.
 
 `bb({eyes:"sad", body:"normal"})`
 
-b: *Can* we really get along?
+b: *Liệu* chúng ta có thực sự hòa hợp không?
 
-b: *Can* we work together, as a team?
+b: *Liệu* chúng ta có thể làm việc cùng nhau, như một đội không?
 
 `hong({eyes:"sad", body:"one_up"})`
 
-h: Well,
+h: Thì...
 
 ```
 hong({eyes:"surprise_l"});
 bb({eyes:"normal"});
 ```
 
-a: E-excuse me...
+a: X-xin lỗi...
 
 ```
 Game.clearText();
@@ -1591,50 +1591,50 @@ music('campus', {volume:0.5, fade:1});
 
 `publish("act4", ["alshire", 0]);`
 
-a: W-wo-would you mind if I sat with you for lunch?
+a: C-c-cậu có phiền không nếu tớ ngồi ăn trưa cùng ?
 
 `publish("act4", ["alshire", 1]);`
 
 {{if _.TOP_FEAR=="harm"}}
-s: *This* is your crush? Why are they sitting alone like a psycho serial killer?
+s: *Đây* là người bạn thích á? Tại sao họ lại ngồi một mình như một kẻ giết người hàng loạt tâm thần vậy?
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: Asking your crush if you can sit with them? Do you know how *needy* we sound?!
+s: Hỏi người bạn thích xem bạn có thể ngồi cùng họ không á? Bạn có biết chúng ta *đòi hỏi* đến cỡ nào không á?!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: *This* is your crush? We interrupted their peace and quiet! We're such a burden!
+s: *Đây* là người bạn thích sao? Chúng ta đã phá vỡ sự yên bình và tĩnh lặng của họ! Chúng ta thật là một gánh nặng!
 {{/if}}
 
 `publish("act4", ["alshire", 2]);`
 
-a: I- I mean- it's, it's okay if not, I just...
+a: Ý tớ là- không sao nếu không, tớ chỉ...
 
 `publish("act4", ["alshire", 3]);`
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h2"`
 
-[Wait, didn't I see you at the party?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
+[Khoan, không phải mình thấy bạn ở bữa tiệc sao?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
 
-[Yeah, of course! Come here.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
+[Ừ, tất nhiên rồi! Đến đây nào.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
 
-[Sorry, I need alone time right now.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
+[Xin lỗi, mình đang cần thời gian riêng tư.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
 
 # act4d_recognition
 
 `publish("act4", ["hong_to_alshire",2]);`
 
-h2: Yeah you were on the couch! At the first party I went to...
+h2: Đúng là bạn đã nằm trên ghế dài! Ở bữa tiệc đầu tiên tôi đến...
 
 `publish("act4", ["hong_to_alshire",10]);`
 
 {{if _.a2_ending=="fight"}}
-h2: Where I had that panic attack and punched the host.
+h2: Khi mình lên cơn hoảng loạn và đấm vào người chủ trì bữa tiệc.
 {{/if}}
 
 {{if _.a2_ending=="flight"}}
-h2: Where I had that panic attack and ran out crying.
+h2: Khi mình lên cơn hoảng loạn và chạy ra ngoài khóc lóc.
 {{/if}}
 
 ```
@@ -1642,18 +1642,18 @@ publish("act4", ["hong_to_alshire", 0]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, we may be making them uncomfortable.
+b: Đợi đã nào con người, chúng ta có thể đang khiến họ khó chịu.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, I don't mean to put you on the spot!
+h2: À, tôi không có ý định làm bạn bối rối!
 
 `publish("act4", ["hong_to_alshire",4]);`
 
-h2: Just remembering a friendly face, is all.
+h2: Chỉ đang nhớ lại một khuôn mặt thân thiện, vậy á.
 
 ```
 publish("act4", ["hong_to_alshire",5]);
@@ -1661,15 +1661,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: AHHHHH I KNEW IT! THEY'RE A DANGEROUS PANIC-DRIVEN PSYCHO!
+s: AHHHHH TÔI BIẾT NGAY! HỌ LÀ BỆNH NHÂN TÂM THẦN NGUY HIỂM DO HOẢNG LOẠN!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: AAHHH THE FIRST IMPRESSION WE MADE WAS "WITNESSED MY TRAUMA"! THAT MEANS THEY HATE US!
+s: AAHHH ẤN TƯỢNG ĐẦU TIÊN CHÚNG TA TẠO LÀ "CHỨNG KIẾN SỰ ĐAU THƯƠNG CỦA TÔI"! ĐIỀU ĐÓ CÓ NGHĨA LÀ HỌ GHÉT CHÚNG TA!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AAAHHH WE MADE SOMEONE REMEMBER A TRAUMATIC EVENT. OUR MERE PRESENCE HURTS OTHERS.
+s: AAAHHH CHÚNG TA ĐÃ KHIẾN AI ĐÓ NHỚ LẠI MỘT SỰ KIỆN ĐAU THƯƠNG. CHỈ CÓ MẶT CHÚNG TA ĐỀU LÀM TỔN THƯƠNG NGƯỜI KHÁC.
 {{/if}}
 
 (#act4e)
@@ -1681,18 +1681,18 @@ publish("act4", ["hong_to_alshire", 5]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, they seem uncomfortable.
+b: Đợi đã nào con người, họ có vẻ không thoải mái.
 
 ```
 publish("act4", ["hong_to_alshire", 6]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, no pressure of course!
+h2: À, tất nhiên là không có áp lực gì rồi!
 
 `publish("act4", ["hong_to_alshire", 4]);`
 
-h2: Just saying, you can sit here if you want to.
+h2: Chỉ rằng, bạn có thể ngồi đây nếu bạn muốn.
 
 ```
 publish("act4", ["hong_to_alshire", 5]);
@@ -1700,15 +1700,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: THEY'RE BEING *TOO* FRIENDLY! LIKE TED BUNDY, THE SERIAL KILLER!
+s: HỌ ĐANG *QUÁ* THÂN THIỆN! GIỐNG NHƯ TED BUNDY, KẺ GIẾT NGƯỜI HÀNG LOẠT!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: THEY'RE JUST ACTING NICE! NO ONE *REALLY* WANTS TO BE CLOSE TO US!
+s: HỌ CHỈ ĐANG GIẢ VỜ TỐT THÔI! KHÔNG AI *THỰC SỰ* MUỐN GẦN CHÚNG TA!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AHHH WE ALWAYS MAKE OTHERS FEEL AWKWARD! WE'RE A STAIN UPON THE EARTH!
+s: AHHH CHÚNG TA LUÔN LÀM NGƯỜI KHÁC CẢM THẤY NGẠI NGÙNG! CHÚNG TA LÀ MỘT VẾT NHƠ TRÊN TRÁI ĐẤT!
 {{/if}}
 
 (#act4e)
@@ -1720,18 +1720,18 @@ publish("act4", ["hong_to_alshire", 9]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, we may be making them uncomfortable.
+b: Đợi đã nào con người, chúng ta có thể đang khiến họ khó chịu.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, I don't mean to be rude!
+h2: À, tôi không có ý thô lỗ đâu!
 
 `publish("act4", ["hong_to_alshire", 6]);`
 
-h2: I just need some time to process my emotions. Please don't take it as a personal rejection.
+h2: Tôi chỉ cần chút thời gian để xử lý cảm xúc của mình. Làm ơn đừng coi đó là sự từ chối cá nhân.
 
 ```
 publish("act4", ["hong_to_alshire", 7]);
@@ -1739,27 +1739,25 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: WHAT SICK, TWISTED THOUGHTS ARE THEY PROCESSING?! WHAT DARK DESIRES FILL THIS PSYCHO'S HEART?!
+s: HỌ ĐANG XỬ LÝ NHỮNG SUY NGHĨ BỆNH TẬT, VÔ LÝ NÀO?! NHỮNG MONG MUỐN TỐI TỐI ĐA ĐANG LẤP ĐẦY TRÁI TIM CỦA KẺ TÂM THẦN NÀY?!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: WE'VE BEEN PERSONALLY REJECTED! WE'LL NEVER BE LOVED!
+s: CHÚNG TA ĐÃ BỊ TỪ CHỐI CÁ NHÂN! CHÚNG TA SẼ KHÔNG BAO GIỜ ĐƯỢC YÊU THƯƠNG!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: WE INTERRUPTED THEIR EMOTIONAL PROCESSING! NOW THEY'LL BE TRAUMATIZED FOREVER AND IT'S ALL OUR FAULT!
+s: CHÚNG TA ĐÃ NGẮT CHẶN QUÁ TRÌNH XỬ LÝ CẢM XÚC CỦA HỌ! GIỜ ĐÂY HỌ SẼ BỊ TÂM LÝ MÃI MÃI VÀ ĐỀU LÀ LỖI CỦA CHÚNG TA!
 {{/if}}
 
 (#act4e)
-
-# act4e
 
 ```
 Game.WORDS_HEIGHT_BOTTOM = 195;
 publish("act4", ["alshire", 6]);
 ```
 
-s: RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN
+s: CHẠY ĐI CHẠY ĐI CHẠY ĐI CHẠY ĐI CHẠY ĐI CHẠY ĐI CHẠY ĐI
 
 ```
 Game.clearText();
@@ -1786,19 +1784,18 @@ Game.WORDS_HEIGHT_BOTTOM = -1; /* reset */
 
 `publish("act4-jumpcut-hong");`
 
-h: Huh. That was weird. I wonder what was going on in their head.
+h: Hử. Kỳ lạ nhỉ. Không biết trong đầu họ đang nghĩ gì nữa.
 
 `publish("act4", ["hong_closer", 2]);`
 
-h: Anyway, you were saying?
+h: Dù sao thì, bạn vừa đang nói về gì vậy?
 
 ```
 publish("act4", ["hong_closer", 1]);
 publish("act4", ["bb_closer", 6]);
 ```
 
-b: Uh, I forget? Something about teams and work?
-
+b: Ờ, tôi quên mất? Có gì đó về nhóm và việc?
 ```
 publish("act4", ["bb_closer", 0]);
 publish("act4", ["hong_closer", 3]);
@@ -1811,55 +1808,55 @@ publish("act4", ["hong_closer", 1]);
 publish("act4", ["bb_closer", 4]);
 ```
 
-b: They say you should "make peace" with your emotions, as if your emotions are *war criminals*.
+b: Họ nói rằng bạn nên "làm hòa" với cảm xúc của mình, như thể cảm xúc của bạn là *tội phạm chiến tranh* vậy.
 
 `publish("act4", ["bb_closer", 7]);`
 
-b: But I want us to make *more* than mere peace! I want us to be *allies!*
+b: Nhưng tôi muốn chúng ta tạo ra *nhiều* hơn là hòa bình đơn thuần! Tôi muốn chúng ta trở thành *đồng minh!*
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: I want to be a good guard-dog. Just like how hunger & thirst are alarms for your physical needs,
+b: Tôi muốn trở thành một chú chó canh gác giỏi. Giống như đói và khát là những hồi chuông báo động cho nhu cầu thể chất của bạn,
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: I want to be the alarm for your *psychological* needs – your needs for safety, belonging, goodness.
+b: Tôi muốn trở thành hồi chuông báo động cho nhu cầu *tâm lý* của bạn – nhu cầu về sự an toàn, sự gắn bó, lòng tốt của bạn.
 
 `publish("act4", ["bb_closer", 1]);`
 
-b: But... I suck at my job, so I need you to train me.
+b: Nhưng... Tôi tệ trong công việc của mình, vì vậy tôi cần bạn đào tạo tôi.
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: I'm not "always valid," nor "always irrational." I'm just... trying my best. So, please,
+b: Tôi không "luôn luôn hợp lệ" hay "luôn luôn phi lý". Tôi chỉ... cố gắng hết sức. Vậy nên, làm ơn,
 
 `publish("act4", ["bb_closer", 30]);`
 
-b: Help me help you!
+b: Giúp tôi giúp bạn nhé!
 
 `publish("act4", ["bb_closer", 6]);`
 
-b: Though, teaching an old dog new tricks *will* take a while. Maybe *years.*
+b: Tuy nhiên, dạy một chú chó già những trò mới *sẽ* mất một thời gian. Có thể là *nhiều năm.*
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: And sometimes I'll relapse, I'll slip into my old habits.
+b: Và đôi khi tôi sẽ tái nghiện, tôi sẽ quay lại với những thói quen cũ của mình.
 
 `publish("act4", ["bb_closer", 2]);`
 
-b: I'll bark at shadows. I'll scare you with words. I might even show you some intrusive images of... things.
+b: Tôi sẽ sủa vào bóng tối. Tôi sẽ dọa bạn bằng những từ ngữ. Tôi thậm chí có thể cho bạn xem một số hình ảnh xâm phạm của... mọi thứ.
 
 `publish("act4", ["bb_closer", 9]);`
 
-b: I'm sorry! I'm a battered shelter dog! Battered dogs poop on your bed sometimes!
+b: Tôi xin lỗi! Tôi là một chú chó bị ngược đãi ở trại cứu hộ! Đôi khi những chú chó bị ngược đãi lại ị lên giường của bạn!
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: But if you're patient with me... and just stay and sit with me...
+b: Nhưng nếu bạn kiên nhẫn với tôi... và chỉ ở lại và ngồi với tôi...
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: Maybe you can tame this wolf.
+b: Có lẽ bạn có thể thuần hóa con sói này.
 
 `publish("act4", ["bb_closer", 0]);`
 
@@ -1869,11 +1866,11 @@ b: Maybe you can tame this wolf.
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Good dog.](#act4f-pat-bb) `Game.OVERRIDE_CHOICE_SPEAKER = "h"; publish("act4", ["hong_closer", 2]);`
+[Chú chó ngoan.](#act4f-pat-bb) `Game.OVERRIDE_CHOICE_SPEAKER = "h"; publish("act4", ["hong_closer", 2]);`
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "b"`
 
-[Good human.](#act4f-pat-hong) `Game.OVERRIDE_CHOICE_SPEAKER = "b"; publish("act4", ["bb_closer", 8]);`
+[Con người ngoan.](#act4f-pat-hong) `Game.OVERRIDE_CHOICE_SPEAKER = "b"; publish("act4", ["bb_closer", 8]);`
 
 # act4f-pat-hong
 
@@ -1970,15 +1967,15 @@ publish("act4", ["hong_closer", 5]);
 ```
 
 {{if _.fifteencigs}}
-b: AAAAA YOU'RE STILL EATING ALONE FIFTEEN CIGARETTES AAAAA
+b: AAAAA BẠN VẪN ĂN MỘT MÌNH MƯỜI LĂM ĐIẾU THUỐC LÁ AAAAA
 {{/if}}
 
 {{if _.parasite}}
-b: AAAAA YOU'RE STILL NOT PRODUCTIVE WHILE EATING WE'RE SOCIETY-PARASITES AAAAA
+b: AAAAA BẠN VẪN KHÔNG HIỆU QUẢ KHI ĂN CHÚNG TA LÀ KÝ SINH TRÙNG CỦA XÃ HỘI AAAAA
 {{/if}}
 
 {{if _.whitebread}}
-b: AAAAA YOU'RE EATING MORE WHITE BREAD AAAAA
+b: AAAAA BẠN ĐANG ĂN NHIỀU BÁNH MÌ TRẮNG HƠN AAAAA
 {{/if}}
 
 ```
