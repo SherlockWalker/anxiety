@@ -937,7 +937,7 @@ h: *Tôi được yêu thương. Tôi tốt bụng. Tôi thông minh. Tôi xinh 
 
 [Trời ơi, nghe tự luyến quá!](#act2d_narcissist)
 
-[Bạn có biết việc khẳng định tích cực đã bị *bác bỏ* không?](#act2d_disproven)
+[Bạn biết việc khẳng định tích cực đã bị *bác bỏ* á?](#act2d_disproven)
 
 [ôi trời đừng gán ghép mấy câu chuyện ngẫu nhiên cho người bản địa](#act2d_racist)
 
@@ -1438,7 +1438,7 @@ h: Hehehe!
 
 h: Và *ngươi* định làm gì về chuyện này, ^đồ khốn^?
 
-b: Tôi rất xin lỗi, người.
+b: Tôi rất xin lỗi, con người.
 
 b: Tôi sẽ phải sử dụng TUYỆT CHIÊU ĐẶC BIỆT của mình
 
