@@ -30,8 +30,7 @@ publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
-
+h2: x-xin chào...
 ```
 publish("act2",["party_hunter",1]);
 publish("act2",["party_hong","next"]);
@@ -163,7 +162,7 @@ s: Thì, hôm qua tôi thấy có người retweet lại GIF mèo đang uống s
 publish("act2",["dee",3]);
 ```
 
-s: Chúng đâu thể tiêu hóa thứ đó! Ai lại retweet sự *ngược đãi động vật* vậy chứ?
+s: Chúng đâu thể tiêu hóa thứ ^chết tiệt^ đó! Ai lại retweet sự *ngược đãi động vật* vậy chứ?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -898,9 +897,9 @@ attack("20p", _.a2_attack_3);
 
 (...1001)
 
-h: Đ^Ệ^T!
+h: Đ^EEEEEEỆỆỆỆ^T!
 
-h: CÁI Đ^ỆT^ Đ^Ụ MÁ^ *Đ^IIIIIIIỊT^*
+h: CÁI Đ^ỆT^ Đ^Ụ MÁ^ Đ^ỆỆỆỆỆỆỆT^ *Đ^IIIIIIIỊT^*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
@@ -912,7 +911,7 @@ b: Tại sao bạn lại lờ tôi đi?
 
 `hong({body:"facepalm"})`
 
-h: Trời đất quỷ thần ạ, đồ ngốc.
+h: Trời đất ^quỷ thần^ ạ, đồ ngốc.
 
 `hong({body:"facepalm_2"})`
 
@@ -925,7 +924,7 @@ hong({body:"facepalm_3"});
 bb({eyes:"normal"});
 ```
 
-h: Tôi đang cố gắng *bỏ đói* cậu đấy, đồ tàn bạo khốn nạn!
+h: Tôi đang cố gắng *bỏ đói* cậu đấy, đồ tàn bạo ^khốn nạn^!
 
 `hong({body:"smile", mouth:"smile"})`
 
@@ -1040,7 +1039,7 @@ h: Ngươi là sản phẩm tiến hóa vô dụng còn sót lại, giống như
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: Chết tiệt, toàn bộ ẩn dụ về con sói này thật ngu ngốc! Ngươi chỉ là một đống chất hóa học thần kinh trong đầu mình thôi.
+h: ^Chết tiệt^, toàn bộ ẩn dụ về con sói này thật ngu ngốc! Ngươi chỉ là một đống chất hóa học thần kinh trong đầu mình thôi.
 
 `hong({body:"cross", mouth:"cross"})`
 
@@ -1466,7 +1465,7 @@ hong({body:"forward", mouth:"forward"});
 sfx("charging");
 ```
 
-h: Cái *đệch* gì đấy?
+h: Cái ^đệch^ gì đấy?
 
 h: Ngươi sẽ lại nói thêm những *lời* ngu ngốc nữa với ta để--
 
@@ -1719,7 +1718,7 @@ h: Mình sẽ quay lại dự tiệc vào cuối tuần tới.
 
 h: Lần tới khi chúng ta đánh nhau, ta sẽ không chỉ *đánh bại* ngươi đâu...
 
-h: Ta sẽ *giết* ngươi.
+h: Ta sẽ *giết* ^con mẹ nhà^ ngươi.
 
 ```
 Game.clearText();
