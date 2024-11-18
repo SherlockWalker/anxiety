@@ -451,7 +451,7 @@ b: Chúng ta cần phải ra khỏi đây và tự cách ly mãi mãi trong mộ
 ```
 _.a2_second_danger = 'netflix';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "a quarantine";
+_.a2_hoodie_callback = "cách ly";
 ```
 
 (#act2c)
@@ -494,7 +494,7 @@ b: "MỘT TÊN BIẾN THÁI ĐẠI RÁC RƯỞI"
 ```
 _.a2_second_danger = 'law';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "the law";
+_.a2_hoodie_callback = "pháp luật";
 ```
 
 (#act2c)
@@ -524,7 +524,7 @@ b: ĐÓ LÀ HIỆU ỨNG CÁNH BƯỚM, CON NGƯỜI! BẠN ĐANG VÔ TÌNH GI�
 ```
 _.a2_second_danger = 'butterfly';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "World War I";
+_.a2_hoodie_callback = "Thế chiến thứ nhất";
 ```
 
 (#act2c)
@@ -552,7 +552,7 @@ b: Con người ơi, chúng ta cần phải chạy trốn khỏi những thây-m
 ```
 _.a2_second_danger = 'zombies';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "zombies";
+_.a2_hoodie_callback = "thây ma";
 ```
 
 (#act2c)
@@ -686,7 +686,7 @@ b: Và sau đó họ phải khử trùng máy bay không người lái để lo�
 
 `_.a2_attack_3 = "alone";`
 
-`_.a2_hoodie_callback = "a quarantine";`
+`_.a2_hoodie_callback = "cách ly";`
 
 (#act2d)
 
@@ -725,7 +725,7 @@ b: bởi vì họ là một tên BIẾN THÁI ĐẠI RÁC RƯỞI GHÊ TỞM
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the law";`
+`_.a2_hoodie_callback = "pháp luật";`
 
 (#act2d)
 
@@ -749,7 +749,7 @@ b: BÙM, BẠN PHÁ SẢN HỆ THỐNG CHĂM SÓC SỨC KHỎE CỦA CHÚNG TA V
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the butterfly effect";`
+`_.a2_hoodie_callback = "hiệu ứng cánh bướm";`
 
 (#act2d)
 
@@ -769,7 +769,7 @@ b: Sau đó chúng sẽ CẮN BẠN và biến bạn thành một THẰNG ĐỒ 
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "zombies";`
+`_.a2_hoodie_callback = "thây ma";`
 
 (#act2d)
 
@@ -869,7 +869,7 @@ b: AHHH CHÚNG TA ĐANG CHẾT! CHÚNG TA ĐANG CHẾT CHÚNG TA ĐANG CHẾT CH
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "punch bowls";`
+`_.a2_hoodie_callback = "bát đựng đồ uống";`
 
 (#act2d)
 
@@ -956,7 +956,7 @@ b: Kết quả: nếu bạn vốn đã có lòng tự trọng thấp, việc đ�
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Wood 2009, Psychological Science. Look it up on Google Scholar, human,
+b: Wood 2009, Psychological Science. Tìm nó trên Google Scholar đi, con người,
 
 `bb({body:"scream_b_1"})`
 
@@ -985,6 +985,7 @@ b: Bạn không thể xịt nước khử mùi vào một căn phòng ẩm mốc
 `bb({body:"chest", mouth:"smile", eyes:"closed"})`
 
 b: May mắn thay, tôi, với tư cách là người bảo vệ sói trung thành của bạn, có thể cảnh báo bạn về những khuyết điểm của bạn. Và ngay bây giờ, nó là-
+
 `bb({body:"scream_b_1"})`
 
 b: MỌI THỨ. MỌI THỨ ĐỀU SAI TRÁI
