@@ -14,7 +14,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n3: (game auto-saved)
+n3: (trò chơi đã tự động lưu)
 
 ```
 Game.clearText();
@@ -220,6 +220,7 @@ h: Vậy thì bài học rút ra từ câu chuyện này là gì?
 `hong({body:"one_up", eyes:"annoyed"})`
 
 h: Chúng ta đã học được cái *quái* gì? Tôi *thực sự có* hành động ngu ngốc, "bạn bè" của tôi *thực sự có* lợi dụng tôi, và chúng ta suýt *chết*.
+
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
@@ -873,9 +874,9 @@ b: Còn suy nghĩ gì nữa không, con người?
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Mình đồng ý: hãy cải thiện đời sống xã hội của chúng ta.](#act4_alone_skills)
+[Đồng ý: hãy cải thiện đời sống xã hội của chúng ta.](#act4_alone_skills)
 
-[Mình nghĩ mọi người thích chúng ta. Cùng tìm hiểu nhé?](#act4_alone_experiment)
+[Mình nghĩ mọi người thích chúng ta. Thử nhé?](#act4_alone_experiment)
 
 [Cảm ơn bạn.](#act4_thanks) `_.thanks_for = "thuộc về cộng đồng";`
 
