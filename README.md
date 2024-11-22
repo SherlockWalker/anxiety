@@ -32,13 +32,15 @@ Nicky Case và Monplaisir xin dành tặng toàn bộ tác phẩm của họ cho
 **A:** ờm
 
 
-## Danh đề đầy 
+## Danh đề đầy đủ
 
 Nghệ thuật / Mã / Viết bởi [Nicky Case](https://ncase.me/)
 
 Âm nhạc bởi [Monplaisir](https://loyaltyfreakmusic.com)
 
 Mã bổ sung bởi [Spacie](https://spacie.me)
+
+Phiên dịch Tiếng Việt bởi [Sherlock_Walker](https://github.com/SherlockWalker)
 
 **Hiệu ứng âm thanh từ FreeSound.org (Creative Commons)**
 
