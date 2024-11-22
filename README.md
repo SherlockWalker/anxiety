@@ -1,15 +1,15 @@
 ![](https://sherlockwalker.github.io/anxiety/sharing/banner.png)
 
-# [Phát câu chuyện tương tác tại đây!](https://sherlockwalker.github.io/anxiety/index.html)
+# [Chơi câu chuyện tương tác tại đây!](https://sherlockwalker.github.io/anxiety/index.html)
 
 ## Miền công cộng
 
 Nicky Case và Monplaisir xin dành tặng toàn bộ tác phẩm của họ cho trò chơi này cho miền công cộng, theo [Creative Commons Zero](https://creativecommons.org/choose/zero/).
-Điều đó có nghĩa là: bạn có thể phối lại và tái sử dụng *bất kỳ* tác phẩm nghệ thuật / mã / nhạc gốc nào trong trò chơi này cho *bất kỳ* mục đích nào, ngay cả mục đích thương mại!
+Điều đó có nghĩa là: bạn có thể phối lại và tái sử dụng *bất kỳ* tác phẩm nghệ thuật / mã / nhạc gốc nào trong trò chơi này cho *bất kỳ* mục đích nào, ngay cả cho mục đích thương mại!
 
 **Q:** Tôi có phải ghi nguồn không?
 
-**A:** Về mặt pháp lý, bạn không bắt buộc phải làm vậy, nhưng chúng tôi rất trân trọng điều đó! <3
+**A:** Về mặt pháp lý, bạn không bắt buộc phải làm vậy, nhưng chúng mình rất trân trọng điều đó! <3
 
 
 **Q:** Về mặt pháp lý, tôi có thể tuyên bố *tôi* đã tạo ra tác phẩm này không?
@@ -19,17 +19,17 @@ Nicky Case và Monplaisir xin dành tặng toàn bộ tác phẩm của họ cho
 
 **Q:** Tôi có thể đăng trò chơi này lên các trang web khác không?
 
-**A:** Có thể. Mặc dù hoàn toàn hợp pháp về mặt bản quyền, nhiều trang web có chính sách riêng của họ về việc không đăng tác phẩm thuộc phạm vi công cộng/nguồn mở của người khác *mà không* có những sửa đổi đáng kể. (Nhưng nếu đó là trang web của riêng bạn, thì hãy sao chép trò chơi này!) 
+**A:** Có thể. Mặc dù hoàn toàn hợp pháp về mặt bản quyền, nhiều trang web có chính sách riêng của họ về việc không đăng tác phẩm thuộc phạm vi công cộng/nguồn mở của người khác mà *không* có những sửa đổi đáng kể. (Nhưng nếu đó là trang web của riêng bạn, thì hãy sao chép trò chơi này!) 
 
 
 **Q:** Tôi có thể bán bản port của trò chơi này không?
 
-**A:** Có! Nhưng để tránh nhầm lẫn, tôi khuyên bạn nên dán nhãn trò chơi của mình là "Bản port do người hâm mộ tạo" và *liên kết đến tuyên bố này nói rằng tôi rõ ràng cho phép các bản phối lại thương mại*. (Ví dụ: [một bản port Steam của một trong những trò chơi khác của tôi!](https://store.steampowered.com/app/1103210/We_Become_What_We_Behold_FanMade_Port/)) Điều này là để tránh những lời buộc tội ăn cắp từ những người không biết rằng tôi luôn mã nguồn mở + cấp phép cho các dự án của mình. 
+**A:** Có! Nhưng để tránh nhầm lẫn, tôi khuyên bạn nên dán nhãn trò chơi của mình là "Bản port do người hâm mộ tạo" và *liên kết đến tuyên bố này nói rằng tôi rõ ràng cho phép các bản phối lại thương mại*. (Ví dụ: [một bản port Steam của một trong những trò chơi khác của tôi!](https://store.steampowered.com/app/1103210/We_Become_What_We_Behold_FanMade_Port/)) Điều này là để tránh những lời buộc tội ăn cắp từ những người không biết rằng mình luôn để mã nguồn mở + cấp phép cho các dự án của mình. 
 
 
 **Q:** Tôi có thể biến trò chơi này thành trò chơi mô phỏng hẹn hò giữa người và sói không? 
 
-**A:** uh
+**A:** ờm
 
 
 ## Đầy đủ thông tin
@@ -42,53 +42,53 @@ Mã bổ sung bởi [Spacie](https://spacie.me)
 
 **Hiệu ứng âm thanh từ FreeSound.org (Creative Commons)**
 
-* [Intro Scream](https://freesound.org/people/analogchill/sounds/35716/) by MaderaDelEste Films
-* [Dramatic Hit](https://freesound.org/people/qubodup/sounds/222517/) by qubodup
-* [Nature Ambience](https://freesound.org/people/michorvath/sounds/427601/) by michorvath
-* [Grass Footstep 1](https://freesound.org/people/morganpurkis/sounds/384651/) by morganpurkis
-* [Grass Footstep 2](https://freesound.org/people/morganpurkis/sounds/384643/) by morganpurkis
-* [Eating a Sandwich](https://freesound.org/people/dleverett/sounds/441906/) by dleverett
-* [Search a Bag](https://freesound.org/people/Tristan_Lohengrin/sounds/233441/) by Tristan\_Lohengrin
-* [Whoosh](https://freesound.org/people/crackles04/sounds/369698/) by crackles04
-* [Empty Room Ambience](https://freesound.org/people/kyles/sounds/451616/) by kyles
-* [Ball Bounce](https://freesound.org/people/13GPanska_Lakota_Jan/sounds/378355/) by 13GPanska\_Lakota\_Jan
-* [Faucet](https://freesound.org/people/calivintage/sounds/95709/) by calivintage
-* [Pop](https://freesound.org/people/onikage22/sounds/240566/) by onikage22
-* [Angry Scream](https://freesound.org/people/cdrk/sounds/21324/) by cdrk
-* [Dirty Explosion](https://freesound.org/people/Link-Boy/sounds/156615/) by Link-Boy
-* [Clothes Rustle](https://freesound.org/people/leonelmail/sounds/427866/) by leonelmail
-* [Typewriter](https://freesound.org/people/tams_kp/sounds/43559/) by tams\_kp
-* [Yelp](https://freesound.org/people/J%C3%BAliaLN/sounds/382990/) by JúliaLN
-* [Tension Building](https://freesound.org/people/benjaminharveydesign/sounds/316649/) by benjaminharveydesign
-* [Short Fart](https://freesound.org/people/DSISStudios/sounds/241000/) by DSISStudios
-* [Party Crowd](https://freesound.org/people/kyles/sounds/453925/) by kyles
-* [Party Music](https://freesound.org/people/djfroyd/sounds/324779/) by djfroyd
-* [Party Crowd 2](https://freesound.org/people/Adam_N/sounds/346687/) by Adam\_N
-* [Party Music 2](https://freesound.org/people/djfroyd/sounds/325155/) by djfroyd
-* [Vinyl Scratch](https://freesound.org/people/filmsndfx/sounds/369673/) by filmsndfx
-* [Jacob's Ladder](https://freesound.org/people/bethanyjodenton/sounds/466477/) by bethanyjodenton
-* [Yap Yap Yap](https://freesound.org/people/Robinhood76/sounds/327813/) by Robinhood76
-* [Door Close](https://freesound.org/people/InspectorJ/sounds/411791/) by InspectorJ
-* [Door Lock](https://freesound.org/people/Fabrizio84/sounds/458013/) by Fabrizio84
-* [Judge Gravel](https://freesound.org/people/qubodup/sounds/215164/) by qubodup
-* [Bottles Clinking](https://freesound.org/people/HDM2013/sounds/179438/) by HDM2013
-* [Drinking](https://freesound.org/people/georgisound/sounds/369293/) by georgisound
-* [Concrete Footsteps](https://freesound.org/people/harrietniamh/sounds/219673/) by harrietniamh
-* [Slide Whistle](https://freesound.org/people/sheepfilms/sounds/432546/) by sheepfilms
-* [Ambulance Siren](https://freesound.org/people/sofialomba/sounds/469413/) by sofialomba
-* [Distant Ambulance Sirens](https://freesound.org/people/ivolipa/sounds/337099/) by ivolipa
-* [ICU Room](https://freesound.org/people/chaffron/sounds/132074/) by chaffron
-* [EMT Radio](https://freesound.org/people/relwin/sounds/397087/) by relwin
-* [Inside A Driving Truck](https://freesound.org/people/RutgerMuller/sounds/50910/) by RutgerMuller
-* [Karate HI-YA](https://freesound.org/people/AmeAngelofSin/sounds/326888/) by AmeAngelofSin
-* [Canned Sitcom Laughter](https://freesound.org/people/Kinoton/sounds/371562/) by Kinoton
-* [Clap 1](https://freesound.org/people/InspectorJ/sounds/404542/) by InspectorJ
-* [Clap 2](https://freesound.org/people/InspectorJ/sounds/404539/) by InspectorJ
-* [Clap 3](https://freesound.org/people/InspectorJ/sounds/404541/) by InspectorJ
-* [Duck Quack](https://freesound.org/people/qubodup/sounds/442820/) by qubodup
-* [Glass Breaking](https://freesound.org/people/Samgd14/sounds/355340/) by Samgd14
-* [Bottle on Concrete](https://freesound.org/people/13GPanska_Gorbusinova_Anna/sounds/377986/) by 13GPanska\_Gorbusinova\_Anna
-* [Cartoon Running](https://freesound.org/people/Mountain852/sounds/365830/) by Mountain852
+* [Intro Scream](https://freesound.org/people/analogchill/sounds/35716/) bởi MaderaDelEste Films
+* [Dramatic Hit](https://freesound.org/people/qubodup/sounds/222517/) bởi qubodup
+* [Nature Ambience](https://freesound.org/people/michorvath/sounds/427601/) bởi michorvath
+* [Grass Footstep 1](https://freesound.org/people/morganpurkis/sounds/384651/) bởi morganpurkis
+* [Grass Footstep 2](https://freesound.org/people/morganpurkis/sounds/384643/) bởi morganpurkis
+* [Eating a Sandwich](https://freesound.org/people/dleverett/sounds/441906/) bởi dleverett
+* [Search a Bag](https://freesound.org/people/Tristan_Lohengrin/sounds/233441/) bởi Tristan\_Lohengrin
+* [Whoosh](https://freesound.org/people/crackles04/sounds/369698/) bởi crackles04
+* [Empty Room Ambience](https://freesound.org/people/kyles/sounds/451616/) bởi kyles
+* [Ball Bounce](https://freesound.org/people/13GPanska_Lakota_Jan/sounds/378355/) bởi 13GPanska\_Lakota\_Jan
+* [Faucet](https://freesound.org/people/calivintage/sounds/95709/) bởi calivintage
+* [Pop](https://freesound.org/people/onikage22/sounds/240566/) bởi onikage22
+* [Angry Scream](https://freesound.org/people/cdrk/sounds/21324/) bởi cdrk
+* [Dirty Explosion](https://freesound.org/people/Link-Boy/sounds/156615/) bởi Link-Boy
+* [Clothes Rustle](https://freesound.org/people/leonelmail/sounds/427866/) bởi leonelmail
+* [Typewriter](https://freesound.org/people/tams_kp/sounds/43559/) bởi tams\_kp
+* [Yelp](https://freesound.org/people/J%C3%BAliaLN/sounds/382990/) bởi JúliaLN
+* [Tension Building](https://freesound.org/people/benjaminharveydesign/sounds/316649/) bởi benjaminharveydesign
+* [Short Fart](https://freesound.org/people/DSISStudios/sounds/241000/) bởi DSISStudios
+* [Party Crowd](https://freesound.org/people/kyles/sounds/453925/) bởi kyles
+* [Party Music](https://freesound.org/people/djfroyd/sounds/324779/) bởi djfroyd
+* [Party Crowd 2](https://freesound.org/people/Adam_N/sounds/346687/) bởi Adam\_N
+* [Party Music 2](https://freesound.org/people/djfroyd/sounds/325155/) bởi djfroyd
+* [Vinyl Scratch](https://freesound.org/people/filmsndfx/sounds/369673/) bởi filmsndfx
+* [Jacob's Ladder](https://freesound.org/people/bethanyjodenton/sounds/466477/) bởi bethanyjodenton
+* [Yap Yap Yap](https://freesound.org/people/Robinhood76/sounds/327813/) bởi Robinhood76
+* [Door Close](https://freesound.org/people/InspectorJ/sounds/411791/) bởi InspectorJ
+* [Door Lock](https://freesound.org/people/Fabrizio84/sounds/458013/) bởi Fabrizio84
+* [Judge Gravel](https://freesound.org/people/qubodup/sounds/215164/) bởi qubodup
+* [Bottles Clinking](https://freesound.org/people/HDM2013/sounds/179438/) bởi HDM2013
+* [Drinking](https://freesound.org/people/georgisound/sounds/369293/) bởi georgisound
+* [Concrete Footsteps](https://freesound.org/people/harrietniamh/sounds/219673/) bởi harrietniamh
+* [Slide Whistle](https://freesound.org/people/sheepfilms/sounds/432546/) bởi sheepfilms
+* [Ambulance Siren](https://freesound.org/people/sofialomba/sounds/469413/) bởi sofialomba
+* [Distant Ambulance Sirens](https://freesound.org/people/ivolipa/sounds/337099/) bởi ivolipa
+* [ICU Room](https://freesound.org/people/chaffron/sounds/132074/) bởi chaffron
+* [EMT Radio](https://freesound.org/people/relwin/sounds/397087/) bởi relwin
+* [Inside A Driving Truck](https://freesound.org/people/RutgerMuller/sounds/50910/) bởi RutgerMuller
+* [Karate HI-YA](https://freesound.org/people/AmeAngelofSin/sounds/326888/) bởi AmeAngelofSin
+* [Canned Sitcom Laughter](https://freesound.org/people/Kinoton/sounds/371562/) bởi Kinoton
+* [Clap 1](https://freesound.org/people/InspectorJ/sounds/404542/) bởi InspectorJ
+* [Clap 2](https://freesound.org/people/InspectorJ/sounds/404539/) bởi InspectorJ
+* [Clap 3](https://freesound.org/people/InspectorJ/sounds/404541/) bởi InspectorJ
+* [Duck Quack](https://freesound.org/people/qubodup/sounds/442820/) bởi qubodup
+* [Glass Breaking](https://freesound.org/people/Samgd14/sounds/355340/) bởi Samgd14
+* [Bottle on Concrete](https://freesound.org/people/13GPanska_Gorbusinova_Anna/sounds/377986/) bởi 13GPanska\_Gorbusinova\_Anna
+* [Cartoon Running](https://freesound.org/people/Mountain852/sounds/365830/) bởi Mountain852
 
 **Hiệu ứng âm thanh từ Kenney.nl (Tất cả Creative Commons Zero)**
 
@@ -104,17 +104,19 @@ Mã bổ sung bởi [Spacie](https://spacie.me)
 
 **Thư viện nguồn mở**
 
-* [Howler.js](https://howlerjs.com/) by James Simpsson for sounds
-* [MinPubSub](https://github.com/daniellmb/MinPubSub) by Daniel Lamb for pub/sub
-* [RSVP.js](https://github.com/tildeio/rsvp.js/) by Tilde for promises
-* [Simple Sharing Buttons](https://simplesharingbuttons.com/) by Stefan Bohacek
-* [Ceaser](https://matthewlein.com/tools/ceaser) by Matthew Lein for CSS animation
+* [Howler.js](https://howlerjs.com/) bởi James Simpsson cho âm thanh
+* [MinPubSub](https://github.com/daniellmb/MinPubSub) bởi Daniel Lamb cho ô hình phát hành-đăng ký
+* [RSVP.js](https://github.com/tildeio/rsvp.js/) bởi Tilde cho promises
+* [Simple Sharing Buttons](https://simplesharingbuttons.com/) bởi Stefan Bohacek
+* [Ceaser](https://matthewlein.com/tools/ceaser) bởi Matthew Lein cho chuyển động đồ họa bằng CSS
 
 **Cảm ơn những người chơi thử của tôi!**
 
 B Cavello, EmilyKate McDonough, Glen Chiacchieri, Mikayla Hutchinson, Monica Srivastava, Rowan, Srini Kadamati
 
 **Và tất nhiên, cảm ơn sự ủng hộ hào phóng của [người hâm mộ của tôi trên Patreon.](https://www.patreon.com/ncase)** Yêu tất cả mọi người <3
+
+[Chơi câu chuyện tương tác tại đây!](https://sherlockwalker.github.io/anxiety/index.html)
 
 -------------
 
