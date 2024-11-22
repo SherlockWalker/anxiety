@@ -32,7 +32,7 @@ Nicky Case và Monplaisir xin dành tặng toàn bộ tác phẩm của họ cho
 **A:** ờm
 
 
-## Đầy đủ thông tin
+## Danh đề đầy 
 
 Nghệ thuật / Mã / Viết bởi [Nicky Case](https://ncase.me/)
 
@@ -133,12 +133,12 @@ B Cavello, EmilyKate McDonough, Glen Chiacchieri, Mikayla Hutchinson, Monica Sri
 [Español (Europeo)](https://jorgeygari.github.io/anxiety/),
 [Español (Latino)](https://fantasmashy.github.io/anxiety-Es-La/),
 [bahasa indonesia](https://ganiaaldi.github.io/anxiety/),
+[Tiếng Việt](https://sherlockwalker.github.io/anxiety/index.html),
 [Türkçe](https://gokdumano.github.io/forks/anxiety/index.html),
 [中文](https://z-lyen.github.io/anxiety/),
 [中文（臺灣）](https://audreyt.github.io/anxiety/),
 [Polski](https://ostapczuk.github.io/anxiety/),
 [ภาษาไทย](https://rambanjo.github.io/anxiety/),
-[bahasa indonesia](https://ganiaaldi.github.io/anxiety/)
 [Українська мова](https://grapto.github.io/anxiety/)
 
 Okay. I super, super seriously apologize in advance.
