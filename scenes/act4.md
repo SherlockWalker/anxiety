@@ -1799,6 +1799,7 @@ publish("act4", ["bb_closer", 6]);
 ```
 
 b: Ờ, tôi quên mất? Có gì đó về nhóm và việc?
+
 ```
 publish("act4", ["bb_closer", 0]);
 publish("act4", ["hong_closer", 3]);
