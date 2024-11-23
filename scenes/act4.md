@@ -1310,7 +1310,7 @@ h: Không, đó là một nỗi lo hoàn toàn hợp lý.
 
 `hong({ eyes:"annoyed", mouth:"sad" });`
 
-h: Và thật tệ khi dịch vụ chăm sóc sức khỏe  thần không phải là lựa chọn khả thi đối với nhiều người.
+h: Và thật tệ khi dịch vụ chăm sóc sức khỏe tâm thần không phải là lựa chọn khả thi đối với nhiều người.
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
